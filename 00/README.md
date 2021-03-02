@@ -1,32 +1,34 @@
-# Python勉強会 #00
+# Python勉強会 in 数理工学生ゼミ #00
 
 ## Contents
 
 - Python
 
-  - Pythonのインストール
+  - Pythonのインストール - Installing Python
 
-- VSCode
+- Visual Studio Code (VSCode)
 
-  - エディタ (editor) とは
+  - エディタ とは - What is an Editor ?
 
-  - VSCodeのインストール
+  - VSCodeのインストール - Installing VSCode
 
-  - 拡張機能 (extension) の設定
+  - 拡張機能 - Extensions
+
+  - settings.json
 
 ## Python
 
-### Pythonのインストール
+### Pythonのインストール - Installing Python
 
-- for [Windows](https://www.python.jp/install/windows/install.html)
+- for [Windows](https://www.python.jp/install/windows/install.html) users
 
-- for [macOS](https://www.python.jp/install/macos/index.html)
+- for [macOS](https://www.python.jp/install/macos/index.html) users
 
-- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f)
+- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f) users
 
-## VSCode
+## Visual Studio Code (VSCode)
 
-### エディタとは
+### エディタ とは - What is an Editor ?
 
 > **エディタ** (または**エディター**、editor) は、コンピュータ上で各種のオブジェクトを編集するソフトウェア。単に**エディタ**という場合、テキストエディタを指すことがある。
 
@@ -34,8 +36,26 @@
 
 統合開発環境 (IDE: integrated development environment) とは異なるので注意。
 
-e.g.) Visual Studio Code (エディタ) と Visual Studio (IDE)
+e.g.) Visual Studio Codeはエディタだが、Visual Studioは統合開発環境である。
 
-### VSCodeのインストール
+### VSCodeのインストール - Installing VSCode
 
 [公式HP](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードする。
+
+### 拡張機能 - Extensions
+
+以下の拡張機能をインストールする：
+
+- Bracket Lens
+
+- Bracket Pair Colorizer 2
+
+- Live Share
+
+- Pylance
+
+- Python
+
+### settings.json
+
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json#L1) をコピーしてVSCode内の **settings.json** に貼り付ける。
