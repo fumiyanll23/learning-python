@@ -1,0 +1,21 @@
+{
+  // ---------- settings of VSCode ----------
+  "extensions.ignoreRecommendations": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "editor.wordWrap": "on",
+  "editor.renderLineHighlight": "all",
+  "editor.minimap.showSlider": "always",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  // ---------- settings of Python ----------
+  "[python]": {
+    "editor.wordBasedSuggestions": false,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "wordWrapColumn"
+  },
+  "python.languageServer": "Pylance",
+  "python.showStartPage": false
+}
