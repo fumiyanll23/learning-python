@@ -33,6 +33,7 @@
 (出典: [Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF))
 
 統合開発環境 (IDE: integrated development environment) とは異なるので注意。
+
 e.g.) Visual Studio Code (エディタ) と Visual Studio (IDE)
 
 ### VSCodeのインストール
