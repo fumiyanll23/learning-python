@@ -1,4 +1,4 @@
-# PythonLearning
+# Python勉強会 in 数理工学生ゼミ
 
 Let's enjoy learning Python!!
 
