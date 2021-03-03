@@ -70,9 +70,11 @@
 
 ### Settings.json
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json#L1) をコピーしてVSCode内の **settings.json** に貼り付ける．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の **settings.json** に上書きする．
 
-## Gitとは - What Is the Git?
+## Git
+
+### Gitとは - What Is the Git?
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -82,7 +84,7 @@
 
 `Gitは、すべて (小さなプロジェクトから非常に大きなプロジェクトまで) を高速かつ効率的に扱うことができる、無料で利用可能な分散型バージョン管理システムである。`
 
-## Gitのインストール - Install Git
+### Gitのインストール - Install Git
 
 - for [Windows](https://git-scm.com/download/win) users
 
@@ -100,7 +102,11 @@
   $ sudo apt install git
   ```
 
-## GitHub
+### Settings.json Part 2
+
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の **settings.json** に上書きする．
+
+### GitHub
 
 > GitHubは、ユーザのみなさんからヒントを得て作成された開発プラットフォームです。オープンソースプロジェクトやビジネスユースまで、GitHub上にソースコードをホスティングすることで数百万人もの他の開発者と一緒にコードのレビューを行ったり、プロジェクトの管理をしながら、ソフトウェアの開発を行うことができます。
 
@@ -108,10 +114,10 @@
 
 注) Gitとは異なり、特定のサービス名である。
 
-## GitHubアカウントの作成 - Create Your GitHub Account
+### GitHubアカウントの作成 - Create Your GitHub Account
 
 [こちら](https://github.com) にて `Sign up` へ進む。
 
-## RepositoryとClone - Repository and Clone
+### RepositoryとClone - Repository and Clone
 
-## Stage -> Commit -> Push
+### Stage -> Commit -> Push
