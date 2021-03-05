@@ -2,6 +2,8 @@
 
 Let's enjoy learning Python!!
 
+## 日程
+
 - [#00](https://github.com/fumiyanll23/PythonLearning/tree/main/00) **2021/03/20** 実施予定
 
 <!-- - [#01](https://github.com/fumiyanll23/PythonLearning/tree/main/01) **2021/03/20** 実施予定 -->
@@ -23,3 +25,7 @@ Let's enjoy learning Python!!
 <!-- - [#09](https://github.com/fumiyanll23/PythonLearning/tree/main/09) 実施予定 -->
 
 <!-- - [#10](https://github.com/fumiyanll23/PythonLearning/tree/main/10) 実施予定 -->
+
+## 参考文献
+
+- [ゼロからのPython入門講座](https://www.python.jp/train/index.html)
