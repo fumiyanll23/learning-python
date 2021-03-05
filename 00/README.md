@@ -1,8 +1,12 @@
 # Python勉強会 in 数理工学生ゼミ #00
 
-## 今日やること - Contents
+2021/03/20 (Sat.) @数理棟2F会議室
+
+## 今回やること - Contents
 
 - Python
+
+  - Pythonとは - What Is Python?
 
   - Pythonのインストール - Install Python
 
@@ -28,9 +32,21 @@
 
   - RepositoryとClone - Repository and Clone
 
-  - CloneとStage -> Commit -> Push - Clone and Stage -> Commit -> Push
+  - Stage -> Commit -> Push
 
 ## Python
+
+### Pythonとは - What Is Python?
+
+- プログラミング言語として
+
+  - インタプリタ/コンパイラ
+
+    - 実行速度
+
+    - メモリ
+
+- 2系/3系
 
 ### Pythonのインストール - Install Python
 
@@ -58,15 +74,21 @@
 
 以下の拡張機能をインストールする：
 
-- Bracket Lens
+- VSCode全般
 
-- Bracket Pair Colorizer 2
+  - Bracket Lens
 
-- Live Share
+  - Bracket Pair Colorizer 2
 
-- Pylance
+  - Live Share
 
-- Python
+  - EvilInspector
+
+- Python関連
+
+  - Python
+
+  - Pylance
 
 ### Settings.json
 
@@ -88,7 +110,7 @@
 
 - for [Windows](https://git-scm.com/download/win) users
 
-  注) リンクを踏むと勝手にダウンロードが始まる。
+  注) リンクを踏むと自動でダウンロードが始まる。
 
 - for macOS users
 
@@ -120,4 +142,16 @@
 
 ### RepositoryとClone - Repository and Clone
 
+- repository
+
+  - public, private
+
+- clone
+
 ### Stage -> Commit -> Push
+
+- stage
+
+- commit
+
+- push
