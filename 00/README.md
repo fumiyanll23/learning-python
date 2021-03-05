@@ -16,15 +16,19 @@
 
   - VSCodeのインストール - Install VSCode
 
-  - 拡張機能の設定 - Configure Extensions
+  - 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
 
-  - Settings.json
+  - Settings.json [Part 1]
 
 - Git
 
   - Gitとは - What Is the Git?
 
   - Gitのインストール - Install Git
+
+  - 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
+
+  - Settings.json [Part 2]
 
   - GitHub
 
@@ -70,7 +74,7 @@
 
 [こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードする．
 
-### 拡張機能の設定 - Configure Extensions
+### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
 
 以下の拡張機能をインストールする：
 
@@ -90,7 +94,7 @@
 
   - Pylance
 
-### Settings.json
+### Settings.json [Part 1]
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の **settings.json** に上書きする．
 
@@ -124,7 +128,15 @@
   $ sudo apt install git
   ```
 
-### Settings.json Part 2
+### 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
+
+以下の拡張機能をインストールする：
+
+- Git Graph
+
+- Git History
+
+### Settings.json [Part 2]
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の **settings.json** に上書きする．
 
@@ -148,10 +160,18 @@
 
 - clone
 
+  - `git clone`
+
 ### Stage -> Commit -> Push
 
 - stage
 
+  - `git stage` (?)
+
 - commit
 
+  - `git commit` (?)
+
 - push
+
+  - `git push` (?)
