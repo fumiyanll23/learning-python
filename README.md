@@ -27,5 +27,3 @@ Let's enjoy learning Python!!
 <!-- - [#10](https://github.com/fumiyanll23/PythonLearning/tree/main/10) 実施予定 -->
 
 ## 参考文献
-
-- [ゼロからのPython入門講座](https://www.python.jp/train/index.html)
