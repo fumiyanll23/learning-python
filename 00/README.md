@@ -38,19 +38,25 @@
 
   - Stage -> Commit -> Push
 
+- Homework
+
 ## Python
 
 ### Pythonとは - What Is Python?
 
-- プログラミング言語として
+<歴史>
 
-  - インタプリタ/コンパイラ
+1989年、オランダ人の**Guido can Rossum**が開発をはじめ、Pythonが生まれた (リリースされたは1991年) 。
+2000年にはPython 2.0 (いわゆる**2系**)が、2008年にはPython 3.0 (いわゆる**3系**) がリリースされた
+現在は**PSF** (**Python Software Fundation**) という団体が中心になって開発を進めている。
 
-    - 実行速度
+<プログラミング言語の分類>
 
-    - メモリ
-
-- 2系/3系
+プログラミング言語にはインタプリタ型とコンパイラ型が存在する。
+**コンパイラ型**は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
+**インタプリタ型**は、コンパイラ型と異なりコンパイルする必要がない。
+しかしながら、**実行速度が遅くなる**という欠点がある。
+Pythonは後者のインタプリタ型に該当する。
 
 ### Pythonのインストール - Install Python
 
@@ -119,18 +125,18 @@
 - for macOS users
 
   ```terminal
-  $ sudo brew install git
+  $ sudo brew install git -y
   ```
 
 - for Ubuntu users
 
   ```terminal
-  $ sudo apt install git
+  $ sudo apt install git -y
   ```
 
 ### 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
 
-以下の拡張機能をインストールする：
+以下の拡張機能を追加でインストールする：
 
 - Git Graph
 
@@ -138,7 +144,7 @@
 
 ### Settings.json [Part 2]
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の **settings.json** に上書きする．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の **settings.json** に追記する．
 
 ### GitHub
 
@@ -150,7 +156,7 @@
 
 ### GitHubアカウントの作成 - Create Your GitHub Account
 
-[こちら](https://github.com) にて `Sign up` へ進む。
+[こちら](https://github.com) にて右上の `Sign up` へ進む。
 
 ### RepositoryとClone - Repository and Clone
 
@@ -175,3 +181,9 @@
 - push
 
   - `git push` (?)
+
+- コマンドはオプションで起債する (クリックすると現れるやつ)
+
+### Homework
+
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/homework_00.md) のページに書いてある。
