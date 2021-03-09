@@ -4,13 +4,15 @@
 
 ## 今回やること - Contents
 
-- Python
+- [Python](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#python)
 
   - Pythonとは - What Is Python?
 
   - Pythonのインストール - Install Python
 
-- Visual Studio Code (VSCode)
+  - エイリアスの設定 - Configure Alias
+
+- [Visual Studio Code (VSCode)](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#visual-studio-code-vscode)
 
   - エディタとは - What Is an Editor?
 
@@ -20,11 +22,13 @@
 
   - Settings.json [Part 1]
 
-- Git
+- [Git](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#git)
 
   - Gitとは - What Is the Git?
 
   - Gitのインストール - Install Git
+
+  - Gitの設定 - Configure Git
 
   - 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
 
@@ -38,7 +42,7 @@
 
   - Stage -> Commit -> Push
 
-- Homework
+- Hands On
 
 ## Python
 
@@ -46,17 +50,20 @@
 
 <歴史>
 
-1989年、オランダ人の**Guido can Rossum**が開発をはじめ、Pythonが生まれた (リリースされたは1991年) 。
-2000年にはPython 2.0 (いわゆる**2系**)が、2008年にはPython 3.0 (いわゆる**3系**) がリリースされた
-現在は**PSF** (**Python Software Fundation**) という団体が中心になって開発を進めている。
+1989年、オランダ人の**Guido can Rossum**が開発を始め、Pythonが生まれた (リリースされたは1991年) 。
+2000年にはPython 2.0 (いわゆる**2系**)が、2008年にはPython 3.0 (いわゆる**3系**) がリリースされた。
+現在は**Python Software Fundation** (PSF) という団体が中心になって開発を進めている。
+
+注) 本勉強会では3系を使用する前提で話を進める。
+そのため、2系では同様の実行結果が得られない可能性があることをあらかじめ理解しておきたい。
 
 <プログラミング言語の分類>
 
-プログラミング言語にはインタプリタ型とコンパイラ型が存在する。
-**コンパイラ型**は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
-**インタプリタ型**は、コンパイラ型と異なりコンパイルする必要がない。
+プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する。
+**コンパイラ型言語** (compiler language) は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
+**インタプリタ型言語** (interpreter language) は、コンパイラ型言語と異なりコンパイルする必要がない。
 しかしながら、**実行速度が遅くなる**という欠点がある。
-Pythonは後者のインタプリタ型に該当する。
+Pythonは後者のインタプリタ型言語に該当する。
 
 ### Pythonのインストール - Install Python
 
@@ -66,6 +73,34 @@ Pythonは後者のインタプリタ型に該当する。
 
 - for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f) users
 
+### エイリアスの設定 - Configure Aliases
+
+既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する。
+
+for Windows users
+
+以下のコマンドを実行する：
+
+```powershell
+$ Set-Alias -name python -value python3
+$ Set-Alias -name pip -value pip3
+```
+
+for macOS users & Ubuntu users
+
+まず、以下のコマンドを実行し、VSCodeにて `.bashrc` を立ち上げる。
+
+```bash
+$ code ~/.bashrc .
+```
+
+次に、 `.bashrc` に以下のコードを追記する：
+
+```.bashrc
+alias python='python3'
+alias pip='pip3'
+```
+
 ## Visual Studio Code (VSCode)
 
 ### エディタとは - What Is an Editor?
@@ -74,7 +109,7 @@ Pythonは後者のインタプリタ型に該当する。
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF))
 
-注) 統合開発環境 (IDE: integrated development environment) とは異なる．特に，Visual Studio Codeはエディタだが，Visual Studioは統合開発環境である．
+注) **統合開発環境** (IDE: integrated development environment) とは異なる．特に，Visual Studio Codeはエディタだが，Visual Studioは統合開発環境である．
 
 ### VSCodeのインストール - Install VSCode
 
@@ -82,7 +117,14 @@ Pythonは後者のインタプリタ型に該当する。
 
 ### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
 
-以下の拡張機能をインストールする：
+まず、以下のコマンドでホームディレクトリ上でVSCodeを立ち上げる：
+
+```powershell & terminal
+$ cd
+$ code .
+```
+
+次に、以下の拡張機能をインストールする：
 
 - VSCode全般
 
@@ -102,7 +144,7 @@ Pythonは後者のインタプリタ型に該当する。
 
 ### Settings.json [Part 1]
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の **settings.json** に上書きする．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の `settings.json` に上書きする．
 
 ## Git
 
@@ -112,7 +154,7 @@ Pythonは後者のインタプリタ型に該当する。
 
 (出典：[Git](https://git-scm.com/))
 
-以下、著者による訳：
+以下、著者による邦訳：
 
 `Gitは、すべて (小さなプロジェクトから非常に大きなプロジェクトまで) を高速かつ効率的に扱うことができる、無料で利用可能な分散型バージョン管理システムである。`
 
@@ -134,6 +176,21 @@ Pythonは後者のインタプリタ型に該当する。
   $ sudo apt install git -y
   ```
 
+### Gitの設定 - Configure Git
+
+以下のコマンドを実行する：
+
+```powershell & terminal
+$ cd
+$ git config --global user.name "<USER NAME>"
+$ git config --global user.email <EMAIL ADRESS>
+```
+これにより、Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される。
+保存した情報は以下のコマンドを実行することで確認できる：
+```powershell & terminal
+$ git config -l
+```
+
 ### 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
 
 以下の拡張機能を追加でインストールする：
@@ -144,7 +201,7 @@ Pythonは後者のインタプリタ型に該当する。
 
 ### Settings.json [Part 2]
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の **settings.json** に追記する．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の `settings.json` に追記する．
 
 ### GitHub
 
@@ -160,6 +217,8 @@ Pythonは後者のインタプリタ型に該当する。
 
 ### RepositoryとClone - Repository and Clone
 
+cf. わかばちゃん
+
 - repository
 
   - public, private
@@ -169,6 +228,8 @@ Pythonは後者のインタプリタ型に該当する。
   - `git clone`
 
 ### Stage -> Commit -> Push
+
+cf. わかばちゃん
 
 - stage
 
@@ -184,6 +245,11 @@ Pythonは後者のインタプリタ型に該当する。
 
 - コマンドはオプションで起債する (クリックすると現れるやつ)
 
-### Homework
+<details>
+<summary>コマンドによるGitの操作</summary>
+- stage
+</details>
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/homework_00.md) のページに書いてある。
+### Hands On
+
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/hands-on_00.md) のページに書いてある。
