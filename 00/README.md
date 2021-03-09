@@ -117,7 +117,7 @@ alias pip='pip3'
 
 ### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
 
-まず、以下のコマンドでホームディレクトリ上でVSCodeを立ち上げる：
+まず、以下のコマンドを実行し、ホームディレクトリ上でVSCodeを立ち上げる：
 
 ```powershell & terminal
 $ cd
@@ -181,7 +181,6 @@ $ code .
 以下のコマンドを実行する：
 
 ```powershell & terminal
-$ cd
 $ git config --global user.name "<USER NAME>"
 $ git config --global user.email <EMAIL ADRESS>
 ```
