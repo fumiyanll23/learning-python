@@ -71,7 +71,7 @@
 
 - for [macOS](https://www.python.jp/install/macos/index.html) users
 
-- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f) users
+- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f#3-ubuntu%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88) users
 
 ### エイリアスの設定 - Configure Aliases
 
