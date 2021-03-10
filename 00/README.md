@@ -245,3 +245,9 @@ $ git push <REMOTE NAME> <BRANCH NAME>
 ### Hands On
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
+
+### 参考文献
+
+- 湊川あい・著，DQNEO・監修，わかばちゃんと学ぶ　Git使い方入門，C&R研究所，2017．
+
+- [Git公式ドキュメント (日本語版)](https://git-scm.com/book/ja/v2)
