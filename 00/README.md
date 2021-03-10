@@ -40,7 +40,7 @@
 
   - リポジトリとクローン - Repository and Clone
 
-  - ステージ -> コミット -> プッシュ - stage -> commit -> push
+  - プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
 
 - [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/main/00#hands-on)
 
@@ -228,17 +228,20 @@ $ git config -l
   $ git clone <REPOSITORY URL>
   ```
 
-### ステージ -> コミット -> プッシュ - stage -> commit -> push
+### プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
+
+- **プル** (pull)：*リモートリポジトリ* での変更を **ローカルリポジトリ** に反映させること．
 
 - **ステージ** (stage)：作業ディレクトリから `ステージングエリア` へ変更を追加すること．
 
 - **コミット** (commit)：`ステージングエリア` から **ローカルリポジトリ** へ変更を追加すること．
 
-- **プッシュ** (push)：**ローカルリポジトリ** から リモートリポジトリ へ変更を追加すること．
+- **プッシュ** (push)：**ローカルリポジトリ** から *リモートリポジトリ* へ変更を追加すること．
 
 実は，一連の操作は以下のコマンドでも実行できる：
 
 ```powershell & bash
+$ git pull <REMOTE NAME> <BRANCH NAME>
 $ git add <FILE NAME or DIRECTORY NAME>
 $ git commit -m "<COMMIT MESSAGE>"
 $ git push <REMOTE NAME> <BRANCH NAME>
