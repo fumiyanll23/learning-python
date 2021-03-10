@@ -14,7 +14,8 @@
   "[python]": {
     "editor.wordBasedSuggestions": false,
     "editor.tabSize": 4,
-    "editor.wordWrap": "wordWrapColumn"
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
   },
   "python.languageServer": "Pylance",
   "python.showStartPage": false
