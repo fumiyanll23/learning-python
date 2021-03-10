@@ -230,11 +230,11 @@ $ git config -l
 
 ### ステージ -> コミット -> プッシュ - stage -> commit -> push
 
-- **ステージ** (stage)：<span style="color: red; ">作業ディレクトリ</span> から <span style="color: blue; ">ステージングエリア</span> へ変更を追加すること．
+- **ステージ** (stage)：作業ディレクトリから `ステージングエリア` へ変更を追加すること．
 
-- **コミット** (commit)：<span style="color: blue; ">ステージングエリア</span> から <span style="color: green; ">ローカルリポジトリ</span> へ変更を追加すること．
+- **コミット** (commit)：`ステージングエリア` から **ローカルリポジトリ** へ変更を追加すること．
 
-- **プッシュ** (push)：<span style="color: green; ">ローカルリポジトリ</span> から <span style="color: yellow; ">リモートリポジトリ</span> へ変更を追加すること．
+- **プッシュ** (push)：**ローカルリポジトリ** から リモートリポジトリ へ変更を追加すること．
 
 実は，一連の操作は以下のコマンドでも実行できる：
 
