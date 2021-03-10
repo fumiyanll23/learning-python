@@ -40,9 +40,11 @@
 
   - リポジトリとクローン - Repository and Clone
 
-  - ステージ -> コミット -> プッシュ - stage -> commit -> push
+  - プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
 
 - [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/main/00#hands-on)
+
+- [参考文献](https://github.com/fumiyanll23/PythonLearning/tree/main/00#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
 
 ## Python
 
@@ -60,7 +62,7 @@
 - プログラミング言語の分類
 
   プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する．
-  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である．
+  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** または **マシン語** (machine language) に変換する作業 (**コンパイル**) が必要である．
   **インタプリタ型言語** (interpreted language) は，コンパイラ型言語と異なりコンパイルする必要がない．
   しかしながら，**実行速度が遅くなる**という欠点がある．
   Pythonは後者のインタプリタ型言語に該当する．
@@ -71,11 +73,11 @@
 
 - for [macOS](https://www.python.jp/install/macos/index.html) users
 
-- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f) users
+- for [Ubuntu](https://qiita.com/rhene/items/ff11c7850a9a7617c50f#3-ubuntu%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88) users
 
 ### エイリアスの設定 - Configure Aliases
 
-既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する．
+既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する：
 
 - for Windows users
 
@@ -130,6 +132,10 @@ $ code .
 
   - Pylance
 
+- Markdown関連
+
+  - markdownlint
+
 ### Settings.json [Part 1]
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の `settings.json` に上書きする．
@@ -172,7 +178,7 @@ $ git config --global user.email <EMAIL ADRESS>
 ```
 
 これにより，Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される．
-保存した情報は以下のコマンドを実行することで確認できる：
+保存された情報は以下のコマンドを実行することで確認できる：
 
 ```powershell & bash
 $ git config -l
@@ -222,17 +228,20 @@ $ git config -l
   $ git clone <REPOSITORY URL>
   ```
 
-### ステージ -> コミット -> プッシュ - stage -> commit -> push
+### プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
 
-- **ステージ** (stage)：<span style="color: red; ">作業ディレクトリ</span> から <span style="color: blue; ">ステージングエリア</span> へ変更を追加すること．
+- **プル** (pull)：*リモートリポジトリ* での変更を **ローカルリポジトリ** に反映させること．
 
-- **コミット** (commit)：<span style="color: blue; ">ステージングエリア</span> から <span style="color: green; ">ローカルリポジトリ</span> へ変更を追加すること．
+- **ステージ** (stage)：作業ディレクトリから `ステージングエリア` へ変更を追加すること．
 
-- **プッシュ** (push)：<span style="color: green; ">ローカルリポジトリ</span> から <span style="color: yellow; ">リモートリポジトリ</span> へ変更を追加すること．
+- **コミット** (commit)：`ステージングエリア` から **ローカルリポジトリ** へ変更を追加すること．
+
+- **プッシュ** (push)：**ローカルリポジトリ** から *リモートリポジトリ* へ変更を追加すること．
 
 実は，一連の操作は以下のコマンドでも実行できる：
 
 ```powershell & bash
+$ git pull <REMOTE NAME> <BRANCH NAME>
 $ git add <FILE NAME or DIRECTORY NAME>
 $ git commit -m "<COMMIT MESSAGE>"
 $ git push <REMOTE NAME> <BRANCH NAME>
@@ -241,3 +250,9 @@ $ git push <REMOTE NAME> <BRANCH NAME>
 ### Hands On
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
+
+### 参考文献
+
+- 湊川あい・著，DQNEO・監修，わかばちゃんと学ぶ　Git使い方入門，C&R研究所，2017．
+
+- [Git公式ドキュメント (日本語版)](https://git-scm.com/book/ja/v2)
