@@ -38,11 +38,11 @@
 
   - GitHubアカウントの作成 - Create Your GitHub Account
 
-  - RepositoryとClone - Repository and Clone
+  - リポジトリとクローン - Repository and Clone
 
-  - Stage -> Commit -> Push
+  - ステージ -> コミット -> プッシュ - stage -> commit -> push
 
-- Hands On
+- [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#hands-on)
 
 ## Python
 
@@ -50,7 +50,7 @@
 
 <歴史>
 
-1989年、オランダ人の**Guido can Rossum**が開発を始め、Pythonが生まれた (リリースされたは1991年) 。
+1989年、オランダ人の**Guido van Rossum**が開発を始め、Pythonが生まれた (リリースされたは1991年) 。
 2000年にはPython 2.0 (いわゆる**2系**)が、2008年にはPython 3.0 (いわゆる**3系**) がリリースされた。
 現在は**Python Software Fundation** (PSF) という団体が中心になって開発を進めている。
 
@@ -60,8 +60,8 @@
 <プログラミング言語の分類>
 
 プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する。
-**コンパイラ型言語** (compiler language) は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
-**インタプリタ型言語** (interpreter language) は、コンパイラ型言語と異なりコンパイルする必要がない。
+**コンパイラ型言語** (compiled language) は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
+**インタプリタ型言語** (interpreted language) は、コンパイラ型言語と異なりコンパイルする必要がない。
 しかしながら、**実行速度が遅くなる**という欠点がある。
 Pythonは後者のインタプリタ型言語に該当する。
 
@@ -77,29 +77,22 @@ Pythonは後者のインタプリタ型言語に該当する。
 
 既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する。
 
-for Windows users
+- for Windows users
 
-以下のコマンドを実行する：
+  以下のコマンドを実行する：
 
-```powershell
-$ Set-Alias -name python -value python3
-$ Set-Alias -name pip -value pip3
-```
+  ```powershell
+  $ Set-Alias -name python -value python3
+  $ Set-Alias -name pip -value pip3
+  ```
 
-for macOS users & Ubuntu users
+- for macOS or Ubuntu users
 
-まず、以下のコマンドを実行し、VSCodeにて `.bashrc` を立ち上げる。
+  以下のコマンドを実行する：
 
-```bash
-$ code ~/.bashrc .
-```
-
-次に、 `.bashrc` に以下のコードを追記する：
-
-```.bashrc
-alias python='python3'
-alias pip='pip3'
-```
+  ```bash
+  $ echo -e "alias python='python3' \nalias pip='pip3'" >> .bashrc
+  ```
 
 ## Visual Studio Code (VSCode)
 
@@ -113,18 +106,17 @@ alias pip='pip3'
 
 ### VSCodeのインストール - Install VSCode
 
-[こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードする．
+まず、[こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードし、実行する．
+次に、以下のコマンドを実行し、ホームディレクトリ上でVSCodeを立ち上げる：
 
-### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
-
-まず、以下のコマンドを実行し、ホームディレクトリ上でVSCodeを立ち上げる：
-
-```powershell & terminal
-$ cd
+```powershell & bash
+$ cd ~
 $ code .
 ```
 
-次に、以下の拡張機能をインストールする：
+### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
+
+以下の拡張機能をインストールする：
 
 - VSCode全般
 
@@ -166,13 +158,13 @@ $ code .
 
 - for macOS users
 
-  ```terminal
+  ```bash
   $ sudo brew install git -y
   ```
 
 - for Ubuntu users
 
-  ```terminal
+  ```bash
   $ sudo apt install git -y
   ```
 
@@ -180,13 +172,15 @@ $ code .
 
 以下のコマンドを実行する：
 
-```powershell & terminal
+```powershell & bash
 $ git config --global user.name "<USER NAME>"
 $ git config --global user.email <EMAIL ADRESS>
 ```
+
 これにより、Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される。
 保存した情報は以下のコマンドを実行することで確認できる：
-```powershell & terminal
+
+```powershell & bash
 $ git config -l
 ```
 
@@ -214,41 +208,42 @@ $ git config -l
 
 [こちら](https://github.com) にて右上の `Sign up` へ進む。
 
-### RepositoryとClone - Repository and Clone
+### リポジトリとクローン - Repository and Clone
 
-cf. わかばちゃん
+- **リポジトリ** (repository) ：過去の状態や更新情報などが記録されている '貯蔵庫'。
+大きく分けると、以下の4種類が存在する：
 
-- repository
+  - リモート (remote)：クラウド上にあるリポジトリ、
+  
+  - ローカル (local)：ローカル環境 (e.g. 自身のPC) 上にあるリポジトリ、
+  
+  - パブリック (public)：誰でもアクセス可能な公開されているリポジトリ、
+  
+  - プライベート (private)：特定の人物しかアクセスできないリポジトリ。
 
-  - public, private
+- **クローン** (clone)：リモートリポジトリをローカルにコピーすること。
+以下のコマンドを実行することでクローンできる：
 
-- clone
+  ```powershell & bash
+  $ git clone <REPOSITORY URL>
+  ```
 
-  - `git clone`
+### ステージ -> コミット -> プッシュ - stage -> commit -> push
 
-### Stage -> Commit -> Push
+- **ステージ** (stage)：作業ディレクトリからステージングエリアへ変更を追加すること。
 
-cf. わかばちゃん
+- **コミット** (commit)：ステージングエリアからローカルリポジトリへ変更を追加すること。
 
-- stage
+- **プッシュ** (push)：ローカルリポジトリからリモートリポジトリへ変更を追加すること。
 
-  - `git stage` (?)
+一連の操作は以下のコマンドで実行できる：
 
-- commit
-
-  - `git commit` (?)
-
-- push
-
-  - `git push` (?)
-
-- コマンドはオプションで起債する (クリックすると現れるやつ)
-
-<details>
-<summary>コマンドによるGitの操作</summary>
-- stage
-</details>
+```powershell & bash
+$ git add <FILE NAME or DIRECTORY NAME>
+$ git commit -m "<COMMIT MESSAGE>"
+$ git push <REMOTE NAME> <BRANCH NAME>
+```
 
 ### Hands On
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/hands-on_00.md) のページに書いてある。
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
