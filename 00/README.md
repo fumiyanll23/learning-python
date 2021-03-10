@@ -60,7 +60,7 @@
 - プログラミング言語の分類
 
   プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する．
-  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である．
+  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** または **マシン語** (machine language) に変換する作業 (**コンパイル**) が必要である．
   **インタプリタ型言語** (interpreted language) は，コンパイラ型言語と異なりコンパイルする必要がない．
   しかしながら，**実行速度が遅くなる**という欠点がある．
   Pythonは後者のインタプリタ型言語に該当する．
@@ -75,7 +75,7 @@
 
 ### エイリアスの設定 - Configure Aliases
 
-既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する．
+既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する：
 
 - for Windows users
 
@@ -130,6 +130,10 @@ $ code .
 
   - Pylance
 
+- Markdown関連
+
+  - markdownlint
+
 ### Settings.json [Part 1]
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の `settings.json` に上書きする．
@@ -172,7 +176,7 @@ $ git config --global user.email <EMAIL ADRESS>
 ```
 
 これにより，Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される．
-保存した情報は以下のコマンドを実行することで確認できる：
+保存された情報は以下のコマンドを実行することで確認できる：
 
 ```powershell & bash
 $ git config -l
