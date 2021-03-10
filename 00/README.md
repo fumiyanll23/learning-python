@@ -4,7 +4,7 @@
 
 ## 今回やること - Contents
 
-- [Python](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#python)
+- [Python](https://github.com/fumiyanll23/PythonLearning/tree/main/00#python)
 
   - Pythonとは - What Is Python?
 
@@ -12,7 +12,7 @@
 
   - エイリアスの設定 - Configure Alias
 
-- [Visual Studio Code (VSCode)](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#visual-studio-code-vscode)
+- [Visual Studio Code (VSCode)](https://github.com/fumiyanll23/PythonLearning/tree/main/00#visual-studio-code-vscode)
 
   - エディタとは - What Is an Editor?
 
@@ -22,7 +22,7 @@
 
   - Settings.json [Part 1]
 
-- [Git](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#git)
+- [Git](https://github.com/fumiyanll23/PythonLearning/tree/main/00#git)
 
   - Gitとは - What Is the Git?
 
@@ -42,28 +42,28 @@
 
   - ステージ -> コミット -> プッシュ - stage -> commit -> push
 
-- [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/dev/00#hands-on)
+- [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/main/00#hands-on)
 
 ## Python
 
 ### Pythonとは - What Is Python?
 
-<歴史>
+- 歴史
 
-1989年、オランダ人の**Guido van Rossum**が開発を始め、Pythonが生まれた (リリースされたは1991年) 。
-2000年にはPython 2.0 (いわゆる**2系**)が、2008年にはPython 3.0 (いわゆる**3系**) がリリースされた。
-現在は**Python Software Fundation** (PSF) という団体が中心になって開発を進めている。
+  1989年，オランダ人の**Guido van Rossum**が開発を始め，Pythonが生まれた (リリースされたは1991年) ．
+  2000年にはPython 2.0 (いわゆる**2系**)が，2008年にはPython 3.0 (いわゆる**3系**) がリリースされた．
+  現在は**Python Software Fundation** (PSF) という団体が中心になって開発を進めている．
 
-注) 本勉強会では3系を使用する前提で話を進める。
-そのため、2系では同様の実行結果が得られない可能性があることをあらかじめ理解しておきたい。
+  注) 本勉強会では3系を使用する前提で話を進める．
+  そのため，2系では同様の実行結果が得られない可能性があることをあらかじめ理解しておきたい．
 
-<プログラミング言語の分類>
+- プログラミング言語の分類
 
-プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する。
-**コンパイラ型言語** (compiled language) は、プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である。
-**インタプリタ型言語** (interpreted language) は、コンパイラ型言語と異なりコンパイルする必要がない。
-しかしながら、**実行速度が遅くなる**という欠点がある。
-Pythonは後者のインタプリタ型言語に該当する。
+  プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する．
+  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** (**マシン語**) に変換する作業 (**コンパイル**) が必要である．
+  **インタプリタ型言語** (interpreted language) は，コンパイラ型言語と異なりコンパイルする必要がない．
+  しかしながら，**実行速度が遅くなる**という欠点がある．
+  Pythonは後者のインタプリタ型言語に該当する．
 
 ### Pythonのインストール - Install Python
 
@@ -75,11 +75,9 @@ Pythonは後者のインタプリタ型言語に該当する。
 
 ### エイリアスの設定 - Configure Aliases
 
-既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する。
+既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する．
 
 - for Windows users
-
-  以下のコマンドを実行する：
 
   ```powershell
   $ Set-Alias -name python -value python3
@@ -87,8 +85,6 @@ Pythonは後者のインタプリタ型言語に該当する。
   ```
 
 - for macOS or Ubuntu users
-
-  以下のコマンドを実行する：
 
   ```bash
   $ echo -e "alias python='python3' \nalias pip='pip3'" >> .bashrc
@@ -102,12 +98,12 @@ Pythonは後者のインタプリタ型言語に該当する。
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF))
 
-注) **統合開発環境** (IDE: integrated development environment) とは異なる．特に，Visual Studio Codeはエディタだが，Visual Studioは統合開発環境である．
+注) **統合開発環境** (IDE: integrated development environment) とは異なる．例えば，Visual Studio Codeはエディタだが，Visual Studioは統合開発環境である．
 
 ### VSCodeのインストール - Install VSCode
 
-まず、[こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードし、実行する．
-次に、以下のコマンドを実行し、ホームディレクトリ上でVSCodeを立ち上げる：
+[こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードし，実行する．
+インストール後，ホームディレクトリ上でVSCodeを立ち上げる：
 
 ```powershell & bash
 $ cd ~
@@ -146,15 +142,15 @@ $ code .
 
 (出典：[Git](https://git-scm.com/))
 
-以下、著者による邦訳：
+以下，著者による邦訳：
 
-`Gitは、すべて (小さなプロジェクトから非常に大きなプロジェクトまで) を高速かつ効率的に扱うことができる、無料で利用可能な分散型バージョン管理システムである。`
+`Gitは，すべて (小さなプロジェクトから非常に大きなプロジェクトまで) を高速かつ効率的に扱うことができる，無料で利用可能な分散型バージョン管理システムである．`
 
 ### Gitのインストール - Install Git
 
 - for [Windows](https://git-scm.com/download/win) users
 
-  注) リンクを踏むと自動でダウンロードが始まる。
+  注) リンクを踏むと自動でダウンロードが始まる．
 
 - for macOS users
 
@@ -170,14 +166,12 @@ $ code .
 
 ### Gitの設定 - Configure Git
 
-以下のコマンドを実行する：
-
 ```powershell & bash
 $ git config --global user.name "<USER NAME>"
 $ git config --global user.email <EMAIL ADRESS>
 ```
 
-これにより、Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される。
+これにより，Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される．
 保存した情報は以下のコマンドを実行することで確認できる：
 
 ```powershell & bash
@@ -202,26 +196,26 @@ $ git config -l
 
 (出典：[GitHub](https://github.co.jp/))
 
-注) Gitとは異なり、特定のサービス名である。
+注) Gitとは異なり，GitHubは特定のサービス名である．
 
 ### GitHubアカウントの作成 - Create Your GitHub Account
 
-[こちら](https://github.com) にて右上の `Sign up` へ進む。
+[こちら](https://github.com) にて右上の `Sign up` へ進む．
 
 ### リポジトリとクローン - Repository and Clone
 
-- **リポジトリ** (repository) ：過去の状態や更新情報などが記録されている '貯蔵庫'。
-大きく分けると、以下の4種類が存在する：
+- **リポジトリ** (repository) ：過去の状態や更新情報などが記録されている '貯蔵庫'．
+大きく分けると，以下の4種類が存在する：
 
-  - リモート (remote)：クラウド上にあるリポジトリ、
+  - リモート (remote)：クラウド上にあるリポジトリ，
   
-  - ローカル (local)：ローカル環境 (e.g. 自身のPC) 上にあるリポジトリ、
+  - ローカル (local)：ローカル環境 (e.g. 自身のPC) 上にあるリポジトリ，
   
-  - パブリック (public)：誰でもアクセス可能な公開されているリポジトリ、
+  - パブリック (public)：誰でもアクセス可能な公開されているリポジトリ，
   
-  - プライベート (private)：特定の人物しかアクセスできないリポジトリ。
+  - プライベート (private)：特定の人物しかアクセスできないリポジトリ．
 
-- **クローン** (clone)：リモートリポジトリをローカルにコピーすること。
+- **クローン** (clone)：リモートリポジトリをローカルにコピーすること．
 以下のコマンドを実行することでクローンできる：
 
   ```powershell & bash
@@ -230,13 +224,13 @@ $ git config -l
 
 ### ステージ -> コミット -> プッシュ - stage -> commit -> push
 
-- **ステージ** (stage)：作業ディレクトリからステージングエリアへ変更を追加すること。
+- **ステージ** (stage)：<span style="color: red; ">作業ディレクトリ</span> から <span style="color: blue; ">ステージングエリア</span> へ変更を追加すること．
 
-- **コミット** (commit)：ステージングエリアからローカルリポジトリへ変更を追加すること。
+- **コミット** (commit)：<span style="color: blue; ">ステージングエリア</span> から <span style="color: green; ">ローカルリポジトリ</span> へ変更を追加すること．
 
-- **プッシュ** (push)：ローカルリポジトリからリモートリポジトリへ変更を追加すること。
+- **プッシュ** (push)：<span style="color: green; ">ローカルリポジトリ</span> から <span style="color: yellow; ">リモートリポジトリ</span> へ変更を追加すること．
 
-一連の操作は以下のコマンドで実行できる：
+実は，一連の操作は以下のコマンドでも実行できる：
 
 ```powershell & bash
 $ git add <FILE NAME or DIRECTORY NAME>
@@ -246,4 +240,4 @@ $ git push <REMOTE NAME> <BRANCH NAME>
 
 ### Hands On
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/dev/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
