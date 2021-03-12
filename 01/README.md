@@ -14,7 +14,7 @@
 
 - [はじめてのプログラミング - Programming for the First Time](https://github.com/fumiyanll23/PythonLearning/tree/01/01#%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0---programming-for-the-first-time)
 
-  - (構造化) プログラミングの3大要素 - the Largest Three Elements of (Structured) Programming
+  - (構造化) プログラミングの3大要素 - The Largest Three Elements of (Structured) Programming
 
   - スニペットの設定 - Configure Snippets
 
@@ -25,6 +25,8 @@
   - 関数 - Functions
 
   - モジュールとインポート - Modules and Import
+
+  - より良いコードを書くために - for Writing Better Codes
 
 - [Homework](https://github.com/fumiyanll23/PythonLearning/tree/01/01#homework)
 
@@ -60,7 +62,7 @@ Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Pytho
 
 ## はじめてのプログラミング - Programming for the First Time
 
-### (構造化) プログラミングの3大要素 - the Largest Three Elements of (Structured) Programming
+### (構造化) プログラミングの3大要素 - The Largest Three Elements of (Structured) Programming
 
 > **構造化プログラミング** (こうぞうかプログラミング、英: structured programming) とは、コンピュータプログラム上での処理の流れを明瞭化かつ平易化するための手法である。一般的には順接、分岐、反復の三つの**制御構造** (control structures) によって処理の流れを記述することであると認識されている。
 > (中略)
@@ -125,6 +127,11 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 |[pandas](https://pandas.pydata.org/)|データ構造やデータ分析|
 |[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数を生成する|
 |[SciPy](https://www.scipy.org/)|数学，科学，工学|
+
+### より良いコードを書くために - for Writing Better Codes
+
+Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedocs.io/ja/latest/)) が存在する。
+一度は目を通しておきたい。
 
 ## Homework
 
