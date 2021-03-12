@@ -4,7 +4,7 @@
 
 ## 今回やること - Contents
 
-- [インタラクティブシェル - an Interactive Shell](https://github.com/fumiyanll23/PythonLearning/tree/01/01#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB---an-interactive-shell)
+- [インタラクティブシェル - an Interactive Shell](https://github.com/fumiyanll23/PythonLearning/tree/main/01#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB---an-interactive-shell)
 
   - インタラクティブシェルとは - What Is an Interactive Shell?
 
@@ -12,7 +12,7 @@
 
   - 整数と実数 - Integers and Real Numbers
 
-- [はじめてのプログラミング - Programming for the First Time](https://github.com/fumiyanll23/PythonLearning/tree/01/01#%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0---programming-for-the-first-time)
+- [はじめてのプログラミング - Programming for the First Time](https://github.com/fumiyanll23/PythonLearning/tree/main/01#%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0---programming-for-the-first-time)
 
   - (構造化) プログラミングの3大要素 - The Largest Three Elements of (Structured) Programming
 
@@ -28,7 +28,7 @@
 
   - より良いコードを書くために - for Writing Better Codes
 
-- [Homework](https://github.com/fumiyanll23/PythonLearning/tree/01/01#homework)
+- [Homework](https://github.com/fumiyanll23/PythonLearning/tree/main/01#homework)
 
 ## インタラクティブシェル - an Interactive Shell
 
