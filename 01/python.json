@@ -17,9 +17,10 @@
 		"body": [
 			"def main():",
 			"\t# input",
-			"\t$1",
+			"",
 			"",
 			"\t# compute",
+			"",
 			"",
 			"\t# output",
 			"",
