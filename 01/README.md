@@ -4,15 +4,15 @@
 
 ## 今回やること - Contents
 
-- インタラクティブシェル - an Interactive Shell
+- [インタラクティブシェル - an Interactive Shell](https://github.com/fumiyanll23/PythonLearning/tree/01/01#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB---an-interactive-shell)
 
   - インタラクティブシェルとは - What Is an Interactive Shell?
 
-  - Hello, World
+  - "import this"
 
   - 整数と実数 - Integers and Real Numbers
 
-- はじめてのプログラミング - Programming for the First Time
+- [はじめてのプログラミング - Programming for the First Time](https://github.com/fumiyanll23/PythonLearning/tree/01/01#%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0---programming-for-the-first-time)
 
   - (構造化) プログラミングの3大要素 - the Largest Three Elements of (Structured) Programming
 
@@ -26,7 +26,7 @@
 
   - モジュールとインポート - Modules and Import
 
-- Homework
+- [Homework](https://github.com/fumiyanll23/PythonLearning/tree/01/01#homework)
 
 ## インタラクティブシェル - an Interactive Shell
 
@@ -36,23 +36,27 @@
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB#:~:text=%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB%E3%81%A8%E3%81%AF%E3%80%81%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88,%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6%E6%8F%90%E4%BE%9B%E3%81%95%E3%82%8C%E3%82%8B%E3%80%82))
 
-[前回](https://github.com/fumiyanll23/PythonLearning/tree/main/00#%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%81%AE%E8%A8%AD%E5%AE%9A---configure-aliases) でエイリアスを設定しているため、以下のコマンドを実行することでPythonのインタラクティブシェルを起動することができる：
+[前回](https://github.com/fumiyanll23/PythonLearning/tree/main/00#%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9%E3%81%AE%E8%A8%AD%E5%AE%9A---configure-aliases) でエイリアスを設定しているため，以下のコマンドを実行することでPythonのインタラクティブシェルを起動することができる：
 
 ```powershell & bash
 $ python
 ```
 
-### Hello, World
+### "import this"
 
-みんな大好き `hello, world` を体験してみましょう：
+Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Python** には目を通しておきたい．
+ここにはPythonを書く上での心構えが記述されている．
+以下のコマンドを実行すると読むことができる：
 
 ```python
->> print("hello, world")
+>>> import this
 ```
+
+非公式ではあるが，[こちら](https://qiita.com/IshitaTakeshi/items/e4145921c8dbf7ba57ef) に邦訳したものが置いてある．
 
 ### 整数と実数 - Integers and Real Numbers
 
-注) この節は [こちら](https://www.python.jp/train/type_and_func/float.html) を参照せよ。
+注) この節は [こちら](https://www.python.jp/train/type_and_func/float.html) を参照せよ．
 
 ## はじめてのプログラミング - Programming for the First Time
 
@@ -77,26 +81,51 @@ $ python
 
 ### 変数と型 - Variables and Types
 
-注) この節は [こちら](https://www.python.jp/train/type_and_func/variable.html) と [こちら](https://www.python.jp/train/list/index.html#Python%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%9E%8B) を参照せよ。
+注) この節は [こちら](https://www.python.jp/train/type_and_func/variable.html) と [こちら](https://www.python.jp/train/list/index.html#Python%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%9E%8B) を参照せよ．
 
-(主な型と、その具体例を紹介する。)
+主な型について以下にまとめておく：
+
+|型|名前|用途|例|
+|---|---|---|---|
+|bool|ブール|真理値|True, False|
+|float|浮動小数点|小数|3.141592|
+|int|整数 (INTeger) |整数|11|
+|list|配列|複数の要素|[0, 1, 2, 'a', 'b', "foo"]|
+|str|文字列 (STRing) |文字や文字列|'foo', "bar"|
+
+オブジェクトの型を調べるには `type()` 関数を使えばよい：
+
+  ```python
+  >>> test = 'abc'
+  >>> type(test)
+  <class 'str'>
+  ```
 
 ### 注釈 - Comments
 
-注) この節は [こちら](https://www.python.jp/train/type_and_func/comment.html) を参照せよ。
+注) この節は [こちら](https://www.python.jp/train/type_and_func/comment.html) を参照せよ．
 
-実は、 (Ctr + /を紹介する。)
+VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注釈化 (コメントアウト) することができる．
 
 ### 関数 - Functions
 
-注) この節は [こちら](https://www.python.jp/train/type_and_func/function.html) を参照せよ。
+注) この節は [こちら](https://www.python.jp/train/type_and_func/function.html) を参照せよ．
 
 ### モジュールとインポート - Modules and Import
 
-注) この節は [こちら](https://www.python.jp/train/type_and_func/modules.html) を参照せよ。
+注) この節は [こちら](https://www.python.jp/train/type_and_func/modules.html) を参照せよ．
 
-(主なモジュールとその用途を紹介する。)
+主なモジュールについて以下にまとめておく：
+
+|モジュール名|用途|
+|---|---|
+|[math](https://docs.python.org/ja/3.6/library/math.html)|数学関数|
+|[Matplotlib](https://matplotlib.org/)|データの可視化|
+|[NumPy](https://numpy.org/)|数値計算 (特に，ベクトルや行列の処理) |
+|[pandas](https://pandas.pydata.org/)|データ構造やデータ分析|
+|[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数を生成する|
+|[SciPy](https://www.scipy.org/)|数学，科学，工学|
 
 ## Homework
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/homework_01.md) に書いてある宿題をやってみましょう!
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01.md) に書いてある宿題をやってみましょう!
