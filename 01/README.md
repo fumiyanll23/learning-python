@@ -130,8 +130,8 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 
 ### より良いコードを書くために - for Writing Better Codes
 
-Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedocs.io/ja/latest/)) が存在する。
-一度は目を通しておきたい。
+Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedocs.io/ja/latest/)) が存在する．
+一度は目を通しておきたい．
 
 ## Homework
 
