@@ -85,7 +85,7 @@ Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Pytho
 
 注) この節は [こちら](https://www.python.jp/train/type_and_func/variable.html) と [こちら](https://www.python.jp/train/list/index.html#Python%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%9E%8B) を参照せよ．
 
-変数には **スコープ** (scope) とよばれる概念が存在する。
+変数には **スコープ** (scope) とよばれる概念が存在する．
 
 > プログラミングにおける **スコープ** (英: scope, 可視範囲) とは、ある変数や関数などの名前（識別子）を参照できる範囲のこと。
 
@@ -113,7 +113,9 @@ Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Pytho
 |list|配列|複数の要素|[0, 1, 'a', "b", 'foo', "bar"]|
 |str|文字列 (STRing) |文字や文字列|'foo', "bar"|
 
-オブジェクトの型を調べるには `type()` 関数を使えばよい：
+オブジェクトの型を調べるには `type()` 関数を使えばよい．
+
+例)
 
   ```python
   >>> test = 'abc'
