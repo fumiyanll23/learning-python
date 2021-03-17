@@ -85,17 +85,37 @@ Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Pytho
 
 注) この節は [こちら](https://www.python.jp/train/type_and_func/variable.html) と [こちら](https://www.python.jp/train/list/index.html#Python%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%9E%8B) を参照せよ．
 
+変数には **スコープ** (scope) とよばれる概念が存在する．
+
+> プログラミングにおける **スコープ** (英: scope, 可視範囲) とは、ある変数や関数などの名前（識別子）を参照できる範囲のこと。
+
+(出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97))
+
+例)
+
+  ```python
+  >>> a = 2
+  >>> a
+  2
+  >>> b
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+  NameError: name 'b' is not defined
+  ```
+
 主な型について以下にまとめておく：
 
 |型|名前|用途|例|
 |---|---|---|---|
 |bool|ブール|真理値|True, False|
 |float|浮動小数点|小数|3.141592|
-|int|整数 (INTeger) |整数|11|
-|list|配列|複数の要素|[0, 1, 2, 'a', 'b', "foo"]|
+|int|整数 (INTeger) |整数|2|
+|list|配列|複数の要素|[0, 1, 'a', "b", 'foo', "bar"]|
 |str|文字列 (STRing) |文字や文字列|'foo', "bar"|
 
-オブジェクトの型を調べるには `type()` 関数を使えばよい：
+オブジェクトの型を調べるには `type()` 関数を使えばよい．
+
+例)
 
   ```python
   >>> test = 'abc'
@@ -125,7 +145,7 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 |[Matplotlib](https://matplotlib.org/)|データの可視化|
 |[NumPy](https://numpy.org/)|数値計算 (特に，ベクトルや行列の処理) |
 |[pandas](https://pandas.pydata.org/)|データ構造やデータ分析|
-|[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数を生成する|
+|[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数の生成|
 |[SciPy](https://www.scipy.org/)|数学，科学，工学|
 
 ### より良いコードを書くために - for Writing Better Codes
@@ -136,3 +156,5 @@ Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedoc
 ## Homework
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01.md) に書いてある宿題をやってみましょう!
+
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01_ans.py) にあります．
