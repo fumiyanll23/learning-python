@@ -145,7 +145,7 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 |[Matplotlib](https://matplotlib.org/)|データの可視化|
 |[NumPy](https://numpy.org/)|数値計算 (特に，ベクトルや行列の処理) |
 |[pandas](https://pandas.pydata.org/)|データ構造やデータ分析|
-|[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数を生成する|
+|[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数の生成|
 |[SciPy](https://www.scipy.org/)|数学，科学，工学|
 
 ### より良いコードを書くために - for Writing Better Codes
@@ -156,3 +156,5 @@ Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedoc
 ## Homework
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01.md) に書いてある宿題をやってみましょう!
+
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01_ans.py) にあります．
