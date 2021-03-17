@@ -10,7 +10,7 @@
 
   - Pythonのインストール - Install Python
 
-  - エイリアスの設定 - Configure Alias
+  - エイリアスの設定 - Configure Aliases
 
 - [Visual Studio Code (VSCode)](https://github.com/fumiyanll23/PythonLearning/tree/main/00#visual-studio-code-vscode)
 
@@ -42,7 +42,7 @@
 
   - プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
 
-- [Hands On](https://github.com/fumiyanll23/PythonLearning/tree/main/00#hands-on)
+- [Homework](https://github.com/fumiyanll23/PythonLearning/tree/main/00#homework)
 
 - [参考文献](https://github.com/fumiyanll23/PythonLearning/tree/main/00#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
 
@@ -52,19 +52,19 @@
 
 - 歴史
 
-  1989年，オランダ人の**Guido van Rossum**が開発を始め，Pythonが生まれた (リリースされたは1991年) ．
+  1989年，オランダ人の **Guido van Rossum** が開発を始め，Pythonが生まれた (リリースされたは1991年) ．
   2000年にはPython 2.0 (いわゆる**2系**)が，2008年にはPython 3.0 (いわゆる**3系**) がリリースされた．
-  現在は**Python Software Fundation** (PSF) という団体が中心になって開発を進めている．
+  現在は **Python Software Fundation** (PSF) という団体が中心になって開発を進めている．
 
   注) 本勉強会では3系を使用する前提で話を進める．
   そのため，2系では同様の実行結果が得られない可能性があることをあらかじめ理解しておきたい．
 
 - プログラミング言語の分類
 
-  プログラミング言語にはインタプリタ型言語とコンパイラ型言語が存在する．
-  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを**機械語** または **マシン語** (machine language) に変換する作業 (**コンパイル**) が必要である．
+  プログラミング言語にはコンパイラ型言語とインタプリタ型言語が存在する．
+  **コンパイラ型言語** (compiled language) は，プログラミング言語で書かれたソースコードを **機械語** または **マシン語** (machine language) に変換する作業 (**コンパイル**) が必要である．
   **インタプリタ型言語** (interpreted language) は，コンパイラ型言語と異なりコンパイルする必要がない．
-  しかしながら，**実行速度が遅くなる**という欠点がある．
+  しかしながら，**実行速度が遅くなる** という欠点がある．
   Pythonは後者のインタプリタ型言語に該当する．
 
 ### Pythonのインストール - Install Python
@@ -77,7 +77,13 @@
 
 ### エイリアスの設定 - Configure Aliases
 
-既存の `python` コマンドで `Python3.x.x` が起動するように**エイリアス** (alias) を設定する：
+> エイリアス (英: alias) は「別名」を意味する英語の名詞である。
+> (中略)
+> データ型やオブジェクトに与える別名。
+
+(出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9))
+
+既存の `python` コマンドで `Python3.x.x` が起動するように **エイリアス** (alias) を設定する：
 
 - for Windows users
 
@@ -206,7 +212,7 @@ $ git config -l
 
 ### GitHubアカウントの作成 - Create Your GitHub Account
 
-[こちら](https://github.com) にて右上の `Sign up` へ進む．
+[こちら](https://github.com) にて右上の **Sign up** へ進む．
 
 ### リポジトリとクローン - Repository and Clone
 
@@ -247,12 +253,14 @@ $ git commit -m "<COMMIT MESSAGE>"
 $ git push <REMOTE NAME> <BRANCH NAME>
 ```
 
-### Hands On
+### Homework
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/hands-on_00.md) に書いてあるhands onを実際にやってみましょう!
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/homework_00.md) に書いてある宿題をやってみましょう!
 
 ### 参考文献
 
-- 湊川あい・著，DQNEO・監修，わかばちゃんと学ぶ　Git使い方入門，C&R研究所，2017．
+- 湊川あい・著，DQNEO・監修，[わかばちゃんと学ぶ Git使い方入門](https://www.amazon.co.jp/%E3%82%8F%E3%81%8B%E3%81%B0%E3%81%A1%E3%82%83%E3%82%93%E3%81%A8%E5%AD%A6%E3%81%B6-Git%E4%BD%BF%E3%81%84%E6%96%B9%E5%85%A5%E9%96%80%E3%80%88GitHub%E3%80%81Bitbucket%E3%80%81SourceTree%E3%80%89-%E6%B9%8A%E5%B7%9D-%E3%81%82%E3%81%84/dp/4863542178/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1615958786&sr=8-1)，C&R研究所，2017．
+
+  - 改訂2版が2021/05/13に出版予定 (2021/03/20現在)
 
 - [Git公式ドキュメント (日本語版)](https://git-scm.com/book/ja/v2)
