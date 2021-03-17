@@ -4,7 +4,7 @@
 
 ## 今回やること - Contents
 
-- [インタラクティブシェル - an Interactive Shell](https://github.com/fumiyanll23/PythonLearning/tree/main/01#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB---an-interactive-shell)
+- [インタラクティブシェル - An Interactive Shell](https://github.com/fumiyanll23/PythonLearning/tree/main/01#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B7%E3%82%A7%E3%83%AB---an-interactive-shell)
 
   - インタラクティブシェルとは - What Is an Interactive Shell?
 
@@ -26,11 +26,11 @@
 
   - モジュールとインポート - Modules and Import
 
-  - より良いコードを書くために - for Writing Better Codes
+  - より良いコードを書くために - For Writing Better Codes
 
 - [Homework](https://github.com/fumiyanll23/PythonLearning/tree/main/01#homework)
 
-## インタラクティブシェル - an Interactive Shell
+## インタラクティブシェル - An Interactive Shell
 
 ### インタラクティブシェルとは - What Is an Interactive Shell?
 
@@ -148,7 +148,7 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 |[random](https://docs.python.org/ja/3/library/random.html)|疑似乱数の生成|
 |[SciPy](https://www.scipy.org/)|数学，科学，工学|
 
-### より良いコードを書くために - for Writing Better Codes
+### より良いコードを書くために - For Writing Better Codes
 
 Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedocs.io/ja/latest/)) が存在する．
 一度は目を通しておきたい．
