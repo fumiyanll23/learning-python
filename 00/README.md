@@ -10,7 +10,7 @@
 
   - Pythonのインストール - Install Python
 
-  - エイリアスの設定 - Configure Alias
+  - エイリアスの設定 - Configure Aliases
 
 - [Visual Studio Code (VSCode)](https://github.com/fumiyanll23/PythonLearning/tree/main/00#visual-studio-code-vscode)
 
