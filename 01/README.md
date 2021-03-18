@@ -119,7 +119,7 @@ a += 1 ... (2)
 |型|名前|用途|例|
 | --- | --- | --- | --- |
 |bool|ブール|真理値|True, False|
-|float|浮動小数点|小数|3.141592|
+|float|浮動小数点数 (FLOATing point number) |小数|3.141592|
 |int|整数 (INTeger) |整数|2|
 |list|配列|複数の要素|[0, 1, 'a', "b", 'foo', "bar"]|
 |str|文字列 (STRing) |文字や文字列|'foo', "bar"|
