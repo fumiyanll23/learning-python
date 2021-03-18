@@ -167,5 +167,3 @@ Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedoc
 ## Homework
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01.md) に書いてある宿題をやってみましょう!
-
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01_ans.py) にあります．
