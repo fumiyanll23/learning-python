@@ -1,32 +1,22 @@
 # Python勉強会 in 数理工学生ゼミ
 
-Let's enjoy learning Python!!
+## Let's enjoy learning Python!!
 
-## 日程
+|回|日付|テーマ|状態|
+| :---: | :---: | :---: | :---: |
+|[#00](https://github.com/fumiyanll23/PythonLearning/tree/main/00)|2021/03/20|Pythonの環境構築とGitの基本的な操作|実施予定|
+|[#01](https://github.com/fumiyanll23/PythonLearning/tree/main/01)|2021/03/20|データと式の基礎|実施予定|
+|#02|2021/03/22|テキストデータと簡単な入力・出力方法|実施予定|
+|#03|2021/03/22|論理演算の基礎|実施予定|
+|#04|2021/03/27|if文|実施予定|
+|#05|2021/03/29|while文|実施予定|
+|#06|2021/04/01|独自の関数の作成とその呼び出し方|実施予定|
+|#07|2021/04/03|リストの使い方|実施予定|
+|#08|2021/04/05|辞書を使ったデータ検索|実施予定|
+|#09|2021/04/08|タプルの使い方|実施予定|
+|#10|2021/04/10|???|実施予定|
 
-- [#00](https://github.com/fumiyanll23/PythonLearning/tree/main/00) **2021/03/20** 実施予定
-
-<!-- - [#01](https://github.com/fumiyanll23/PythonLearning/tree/main/01) **2021/03/20** 実施予定 -->
-
-<!-- - [#02](https://github.com/fumiyanll23/PythonLearning/tree/main/02) **2021/03/22** 実施予定 -->
-
-<!-- - [#03](https://github.com/fumiyanll23/PythonLearning/tree/main/03) 実施予定 -->
-
-<!-- - [#04](https://github.com/fumiyanll23/PythonLearning/tree/main/04) 実施予定 -->
-
-<!-- - [#05](https://github.com/fumiyanll23/PythonLearning/tree/main/05) 実施予定 -->
-
-<!-- - [#06](https://github.com/fumiyanll23/PythonLearning/tree/main/06) 実施予定 -->
-
-<!-- - [#07](https://github.com/fumiyanll23/PythonLearning/tree/main/07) 実施予定 -->
-
-<!-- - [#08](https://github.com/fumiyanll23/PythonLearning/tree/main/08) 実施予定 -->
-
-<!-- - [#09](https://github.com/fumiyanll23/PythonLearning/tree/main/09) 実施予定 -->
-
-<!-- - [#10](https://github.com/fumiyanll23/PythonLearning/tree/main/10) 実施予定 -->
-
-## 参考文献
+## 参考文献 - References
 
 - [ゼロからのPython入門講座](https://www.python.jp/train/index.html)
 

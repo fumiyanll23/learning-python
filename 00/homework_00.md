@@ -1,8 +1,8 @@
-# Hands On #00
+# Homework #00
 
-1. `python-learning` リポジトリに関する以下の操作を行いなさい．
+1. `python-learning` リポジトリに対して，以下の操作を行いなさい．
 
-    1. [GitHub](https://github.com) にて `python-learning` リポジトリを作成する．
+    1. [GitHub](https://github.com) にて `python-learning` リポジトリを (パブリックで) 作成する．
 
     1. ホームディレクトリへ移動し， `work` ディレクトリを作成する：
 
