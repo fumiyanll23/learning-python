@@ -60,6 +60,17 @@ Pythonプログラマ (pythonista) を目指すにあたり，**The Zen of Pytho
 
 注) この節は [こちら](https://www.python.jp/train/type_and_func/float.html) を参照せよ．
 
+表にある演算子のみならず，演算と代入を同時に行う **複合演算子** が存在する．
+
+例) 以下の2つの式(1)，(2)は等価である：
+
+```python
+a = 0
+
+a = a + 1 ... (1)
+a += 1 ... (2)
+```
+
 ## はじめてのプログラミング - Programming for the First Time
 
 ### (構造化) プログラミングの3大要素 - The Largest Three Elements of (Structured) Programming
