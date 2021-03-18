@@ -90,7 +90,7 @@ a += 1 ... (2)
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%8B%E3%83%9A%E3%83%83%E3%83%88))
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/python.json) をコピーしてVSCode内の `python.json` に上書きする．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/python.json) をコピーしてVSCode内の `python.json` に追記する．
 
 ### 変数と型 - Variables and Types
 
@@ -117,9 +117,9 @@ a += 1 ... (2)
 主な型について以下にまとめておく：
 
 |型|名前|用途|例|
-|---|---|---|---|
+| --- | --- | --- | --- |
 |bool|ブール|真理値|True, False|
-|float|浮動小数点|小数|3.141592|
+|float|浮動小数点数 (FLOATing point number) |小数|3.141592|
 |int|整数 (INTeger) |整数|2|
 |list|配列|複数の要素|[0, 1, 'a', "b", 'foo', "bar"]|
 |str|文字列 (STRing) |文字や文字列|'foo', "bar"|
@@ -151,7 +151,7 @@ VSCodeであれば，使用言語に関わらず `Ctrl + /` でその行を注�
 主なモジュールについて以下にまとめておく：
 
 |モジュール名|用途|
-|---|---|
+| --- | --- |
 |[math](https://docs.python.org/ja/3.6/library/math.html)|数学関数|
 |[Matplotlib](https://matplotlib.org/)|データの可視化|
 |[NumPy](https://numpy.org/)|数値計算 (特に，ベクトルや行列の処理) |
@@ -167,5 +167,3 @@ Pythonには公式のコーディング規約 ([PEP8](https://pep8-ja.readthedoc
 ## Homework
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01.md) に書いてある宿題をやってみましょう!
-
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_01_ans.py) にあります．
