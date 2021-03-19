@@ -6,9 +6,9 @@
 
 - [Python](https://github.com/fumiyanll23/PythonLearning/tree/main/00#python)
 
-  - Pythonとは - What Is Python?
+  - Pythonとは - What Is the Python?
 
-  - Pythonのインストール - Install Python
+  - Pythonのインストール - Install the Python
 
   - エイリアスの設定 - Configure Aliases
 
@@ -16,15 +16,17 @@
 
   - エディタとは - What Is an Editor?
 
-  - VSCodeのインストール - Install VSCode
+  - VSCodeのインストール - Install the VSCode
 
   - 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
 
   - Settings.json [Part 1]
 
-- [AtCoder]()
+- [AtCoder](https://github.com/fumiyanll23/PythonLearning/tree/main/00#atcoder)
 
-  - 競技プログラミングとは - What Is the Competetive Programming?
+  - 競技プログラミングとは - What Is a Competitive Programming?
+
+  - AtCoderとは - What Is the AtCoder?
 
   - AtCoderアカウントの作成 - Create Your AtCoder Account
 
@@ -32,19 +34,19 @@
 
   - Gitとは - What Is the Git?
 
-  - Gitのインストール - Install Git
+  - Gitのインストール - Install the Git
 
-  - Gitの設定 - Configure Git
+  - Gitの設定 - Configure the Git
 
   - 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
 
   - Settings.json [Part 2]
 
-  - GitHub
+  - GitHubとは - What Is the GitHub?
 
   - GitHubアカウントの作成 - Create Your GitHub Account
 
-  - リポジトリとクローン - Repository and Clone
+  - リポジトリとクローン - Repositories and Clone
 
   - プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
 
@@ -54,7 +56,7 @@
 
 ## Python
 
-### Pythonとは - What Is Python?
+### Pythonとは - What Is the Python?
 
 - 歴史
 
@@ -73,7 +75,7 @@
   しかしながら，**実行速度が遅くなる** という欠点がある．
   Pythonは後者のインタプリタ型言語に該当する．
 
-### Pythonのインストール - Install Python
+### Pythonのインストール - Install the Python
 
 - for [Windows](https://www.python.jp/install/windows/install.html) users
 
@@ -114,7 +116,7 @@
 
 注) **統合開発環境** (IDE: integrated development environment) とは異なる．例えば，Visual Studio Codeはエディタだが，Visual Studioは統合開発環境である．
 
-### VSCodeのインストール - Install VSCode
+### VSCodeのインストール - Install the VSCode
 
 [こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードし，実行する．
 インストール後，ホームディレクトリ上でVSCodeを立ち上げる：
@@ -154,9 +156,23 @@ $ code .
 
 ## AtCoder
 
-### 競技プログラミングとは - What Is the Competetive Programming?
+### 競技プログラミングとは - What Is a Competitive Programming?
+
+> **競技プログラミング** (英語: Competitive programming、略称: 競プロ) とは、プログラミングコンテストで行われる競技の一種である。
+> 競技プログラミングでは、参加者全員に同一の課題が出題され、より早く与えられた要求を満足するプログラムを正確に記述することを競う。コンピュータサイエンスや数学の知識を必要とする問題が多く、新卒学生の採用活動などに使われることもある。
+
+(出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0))
+
+### AtCoderとは - What Is the AtCoder?
+
+> AtCoderは、世界最高峰の競技プログラミングサイトです。
+> リアルタイムのオンラインコンテストで競い合うことや、3,000以上の過去問にいつでもチャレンジすることができます。
+
+(出典：[AtCoder](https://atcoder.jp/))
 
 ### AtCoderアカウントの作成 - Create Your AtCoder Account
+
+[こちら](https://atcoder.jp/) にて右上の **新規登録** へ進む．
 
 ## Git
 
@@ -170,7 +186,7 @@ $ code .
 
 `Gitは，すべて (小さなプロジェクトから非常に大きなプロジェクトまで) を高速かつ効率的に扱うことができる，無料で利用可能な分散型バージョン管理システムである．`
 
-### Gitのインストール - Install Git
+### Gitのインストール - Install the Git
 
 - for [Windows](https://git-scm.com/download/win) users
 
@@ -188,7 +204,7 @@ $ code .
   $ sudo apt install git -y
   ```
 
-### Gitの設定 - Configure Git
+### Gitの設定 - Configure the Git
 
 ```powershell & bash
 $ git config --global user.name "<USER NAME>"
@@ -214,7 +230,7 @@ $ git config -l
 
 [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の `settings.json` に追記する．
 
-### GitHub
+### GitHubとは - What Is the GitHub?
 
 > GitHubは、ユーザのみなさんからヒントを得て作成された開発プラットフォームです。オープンソースプロジェクトやビジネスユースまで、GitHub上にソースコードをホスティングすることで数百万人もの他の開発者と一緒にコードのレビューを行ったり、プロジェクトの管理をしながら、ソフトウェアの開発を行うことができます。
 
@@ -226,7 +242,7 @@ $ git config -l
 
 [こちら](https://github.com) にて右上の **Sign up** へ進む．
 
-### リポジトリとクローン - Repository and Clone
+### リポジトリとクローン - Repositories and Clone
 
 - **リポジトリ** (repository) ：過去の状態や更新情報などが記録されている '貯蔵庫'．
 大きく分けると，以下の4種類が存在する：
