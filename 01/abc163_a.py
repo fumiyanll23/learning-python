@@ -1,13 +1,16 @@
-# ABC180A - box
+# ABC163A - Circle Pond
+
+import math
 
 def main():
     # input
-    N, A, B = map(int, input().split())
+    R = int(input())
 
     # compute
 
     # output
-    print(N - A + B)
+    print(2 * math.pi * R)
+
 
 if __name__ == '__main__':
     main()

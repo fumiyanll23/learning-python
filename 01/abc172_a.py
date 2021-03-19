@@ -1,13 +1,14 @@
-# ABC180A - box
+# ABC172A - Calc
 
 def main():
     # input
-    N, A, B = map(int, input().split())
+    a = int(input())
 
     # compute
 
     # output
-    print(N - A + B)
+    print(a + a**2 + a**3)
+
 
 if __name__ == '__main__':
     main()
