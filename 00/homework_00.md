@@ -6,9 +6,9 @@
 
   1. ホームディレクトリへ移動し， `work` ディレクトリを作成する：
 
-        ```powershell & bash
-        $ cd ~
-        $ mkdir work
+        ```powershell & zsh
+        > cd ~
+        > mkdir work
         ```
 
   1. `python-learning` リポジトリをホームディレクトリ ( `~/` ) にクローンする．
