@@ -206,8 +206,6 @@
 
 - for [Windows](https://git-scm.com/download/win) users
 
-  注) リンクを踏むと自動でダウンロードが始まる．
-
 - for macOS users
 
   ```zsh
