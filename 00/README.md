@@ -154,7 +154,7 @@
 
 ### Settings.json [Part 1]
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings.json) をコピーしてVSCode内の `settings.json` に上書きする．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/src/settings.json) をコピーしてVSCode内の `settings.json` に上書きする．
 
 ## AtCoder
 
@@ -242,7 +242,7 @@
 
 ### Settings.json [Part 2]
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/settings_git.json) をコピーしてVSCode内の `settings.json` に追記する．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/00/src/settings_git.json) をコピーしてVSCode内の `settings.json` に追記する．
 
 ### GitHubとは - What Is the GitHub?
 
