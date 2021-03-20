@@ -98,14 +98,14 @@
 - for Windows users
 
   ```powershell
-  $ Set-Alias -name python -value python3
-  $ Set-Alias -name pip -value pip3
+  > Set-Alias -name python -value python3
+  > Set-Alias -name pip -value pip3
   ```
 
 - for macOS or Ubuntu users
 
-  ```bash
-  $ echo -e "alias python='python3' \nalias pip='pip3'" >> .bashrc
+  ```zsh
+  % echo -e "alias python='python3' \nalias pip='pip3'" >> .zshrc
   ```
 
 ## Visual Studio Code (VSCode)
@@ -123,9 +123,9 @@
 [こちら](https://code.visualstudio.com/download) からそれぞれインストーラをダウンロードし，実行する．
 インストール後，ホームディレクトリ上でVSCodeを立ち上げる：
 
-```powershell & bash
-$ cd ~
-$ code .
+```powershell
+> cd ~
+> code .
 ```
 
 ### 拡張機能の設定 [Part 1] - Configure Extensions [Part 1]
@@ -210,8 +210,8 @@ $ code .
 
 - for macOS users
 
-  ```bash
-  $ sudo brew install git -y
+  ```zsh
+  % brew install git
   ```
 
 - for Ubuntu users
@@ -222,16 +222,16 @@ $ code .
 
 ### Gitの設定 - Configure the Git
 
-```powershell & bash
-$ git config --global user.name "<USER NAME>"
-$ git config --global user.email <EMAIL ADRESS>
+```powershell & zsh
+> git config --global user.name "<USER NAME>"
+> git config --global user.email <EMAIL ADRESS>
 ```
 
 これにより，Git使用者の名前とメールアドレスが `~/.gitconfig` に保存される．
 保存された情報は以下のコマンドを実行することで確認できる：
 
-```powershell & bash
-$ git config -l
+```powershell & zsh
+> git config -l
 ```
 
 ### 拡張機能の設定 [Part 2] - Configure Extensions [Part 2]
@@ -278,8 +278,8 @@ $ git config -l
 - **クローン** (clone)：リモートリポジトリをローカルにコピーすること．
 以下のコマンドを実行することでクローンできる：
 
-  ```powershell & bash
-  $ git clone <REPOSITORY URL>
+  ```powershell & zsh
+  > git clone <REPOSITORY URL>
   ```
 
 ### プル -> ステージ -> コミット -> プッシュ - Pull -> Stage -> Commit -> Push
@@ -294,11 +294,11 @@ $ git config -l
 
 実は，一連の操作は以下のコマンドでも実行できる：
 
-```powershell & bash
-$ git pull <REMOTE NAME> <BRANCH NAME>
-$ git add <FILE NAME or DIRECTORY NAME>
-$ git commit -m "<COMMIT MESSAGE>"
-$ git push <REMOTE NAME> <BRANCH NAME>
+```powershell & zsh
+> git pull <REMOTE NAME> <BRANCH NAME>
+> git add <FILE NAME or DIRECTORY NAME>
+> git commit -m "<COMMIT MESSAGE>"
+> git push <REMOTE NAME> <BRANCH NAME>
 ```
 
 ### Homework
