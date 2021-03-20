@@ -92,7 +92,7 @@ a += 1 ... (2)
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%8B%E3%83%9A%E3%83%83%E3%83%88))
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/python.json) をコピーしてVSCode内の `python.json` に追記する．
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/src/python.json) をコピーしてVSCode内の `python.json` に追記する．
 
 ### 変数と型 - Variables and Types
 
