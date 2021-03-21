@@ -1,9 +1,8 @@
 # Homework #01
 
-以下はすべてABC (AtCoder Beginner Contest) の問題です。
 **3問以上**  選んで解き，それぞれ対応するWebページに提出しなさい．
 
-1. [ABC159A](https://atcoder.jp/contests/abc159/tasks/abc159_a)．
+1. [ABC (AtCoder Beginner Contest) 159A](https://atcoder.jp/contests/abc159/tasks/abc159_a)．
 ただし，[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/src/prob/abc159_a.py) を編集して作成しなさい．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/src/ans/abc159_a.py) ．
 
