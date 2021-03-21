@@ -75,13 +75,9 @@ a += 1 ... (2)
 
 ### (構造化) プログラミングの3大要素 - The Largest Three Elements of (Structured) Programming
 
+この節は [こちら](https://www.python.jp/train/if_condition/index.html) を参照せよ．
+
 > **構造化プログラミング** (こうぞうかプログラミング、英: structured programming) とは、コンピュータプログラム上での処理の流れを明瞭化かつ平易化するための手法である。
-> 一般的には順接、分岐、反復の三つの**制御構造** (control structures) によって処理の流れを記述することであると認識されている。
-> (中略)
-> その実行順序を決定するものが制御構造であり、以下の三つがある。
-> 1. **順次** (sequence) 部分プログラムを順々に実行する。
-> 1. **選択** (selection) 条件式が導出した状態に従い、次に実行する部分プログラムを選択して分岐する。
-> 1. **反復** (repetition) 条件式が導出した特定の状態の間、部分プログラムを繰り返し実行する。
 
 (出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E6%A7%8B%E9%80%A0%E5%8C%96%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0))
 

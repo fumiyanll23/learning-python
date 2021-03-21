@@ -5,10 +5,10 @@ def main():
     N, M = map(int, input().split())
 
     # compute
-    # WRITE HERE
+    """WRITE HERE"""
 
     # output
-    print(# WRITE HERE)
+    print("""WRITE HERE""")
 
 
 if __name__ == '__main__':
