@@ -9,7 +9,7 @@ def main():
     # compute
 
     # output
-    print(# WRITE HERE)
+    print("""WRITE HERE""")
 
 
 if __name__ == '__main__':
