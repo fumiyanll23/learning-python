@@ -8,15 +8,15 @@ def main():
 
     # compute
     W *= 1000
-    l = math.ceil(W/B)
-    r = math.floor(W/A)
+    lower = int(math.ceil(W/B))
+    upper = int(math.floor(W/A))
 
     # output
 
-    if l > r:
+    if lower > upper:
         print('UNSATISFIABLE')
     else:
-        print(l, r)
+        print(lower, upper)
 
 
 if __name__ == '__main__':
