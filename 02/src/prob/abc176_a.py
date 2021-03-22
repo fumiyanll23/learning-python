@@ -1,3 +1,5 @@
+# ABC176A - Takoyaki
+
 def main():
     # input
     N, X, T = map(int, input().split())
