@@ -11,7 +11,7 @@
         > mkdir work
         ```
 
-  1. `python-learning` リポジトリをホームディレクトリ ( `~/` ) にクローンする．
+  1. `work` ディレクトリ ( `~/work` ) に移動し，`python-learning` リポジトリをクローンする．
 
   1. `hello_world.md` ファイルを作成し，以下の内容を記述する：
 
