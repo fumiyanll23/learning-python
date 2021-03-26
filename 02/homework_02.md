@@ -21,7 +21,7 @@
 
 1. [ABC167B](https://atcoder.jp/contests/abc167/tasks/abc167_b) を解きなさい．
 ただし，[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/prob/abc167_b.py) を編集して作成しなさい．
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/abc167_b.py) ．
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/ans/abc167_b.py) ．
 
 1. [ABL (ACL Beginner Contest) B](https://atcoder.jp/contests/abl/tasks/abl_b) を解きなさい．
 ただし，[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/prob/abl_b.py) を編集して作成しなさい．
