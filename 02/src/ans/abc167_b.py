@@ -7,9 +7,9 @@ def main():
     # compute
 
     # output
-    if(K <= A):
+    if K <= A:
         print(K)
-    elif(K > A and K <= A+B):
+    elif K <= A+B:
         print(A)
     else:
         print(A - (K - (A+B)))
