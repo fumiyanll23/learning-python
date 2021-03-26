@@ -7,7 +7,7 @@ def main():
     # compute
 
     # output
-    if (A > D) or (B < C):
+    if A>D or B<C:
         print('No')
     else:
         print('Yes')
