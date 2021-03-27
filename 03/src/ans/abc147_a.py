@@ -2,15 +2,15 @@
 
 def main():
     # input
-    A = list(map(int, input().split()))
+    As = list(map(int, input().split()))
 
     # compute
 
     # output
-    if sum(A) >= 22:
-        print("bust")
+    if sum(As) >= 22:
+        print('bust')
     else:
-        print("win")
+        print('win')
 
 
 if __name__ == '__main__':

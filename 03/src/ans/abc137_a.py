@@ -5,10 +5,10 @@ def main():
     A, B = map(int, input().split())
 
     # compute
-    ans = [A+B, A-B, A*B]
+    ABs = [A+B, A-B, A*B]
 
     # output
-    print(max(ans))
+    print(max(ABs))
 
 
 if __name__ == '__main__':

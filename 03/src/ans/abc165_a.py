@@ -13,9 +13,9 @@ def main():
 
     # output
     if flag:
-        print("OK")
+        print('OK')
     else:
-        print("NG")
+        print('NG')
 
 
 if __name__ == '__main__':
