@@ -46,7 +46,7 @@
 
 ### while文による繰り返し - Repetition by while Statements
 
-この節は [こちら](https://www.python.jp/train/list/list_loop.html) と [こちら](https://www.python.jp/train/loop/index.html) を参照せよ．
+この節は [こちら](https://www.python.jp/train/loop/index.html) を参照せよ．
 
 ### break文 - break Statements
 
