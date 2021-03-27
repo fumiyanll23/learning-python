@@ -4,17 +4,19 @@
 
 ## 今回やること - Contents
 
-- [リスト - Lists]()
+- オブジェクト - Objects
 
-  - 要素の使い方 (参照、挿入、削除、要素数) - How to Use Lists (、Insert、Delete、)
+- リスト - Lists
 
-- [繰り返し - Repetition]()
+  - リストとは - What Is Lists?
+
+  - リストの操作 (参照、挿入、削除、要素数) - How to Use Lists (Refer、Insert、Delete、The Number of Elements)
+
+- 繰り返し - Repetition
 
   - for文による繰り返し - Repetition by for Statements
 
   - while文による繰り返し - Repetition by while Statements
-
-  - 無限ループ - Infinite Loop 出典：[Wikipedia](https://ja.wikipedia.org/wiki/%E7%84%A1%E9%99%90%E3%83%AB%E3%83%BC%E3%83%97)
 
   - break文 - break Statements
 
@@ -22,9 +24,37 @@
 
 - [Homework](https://github.com/fumiyanll23/PythonLearning/tree/main/03#homework)
 
+## オブジェクト - Objects
+
+この節は [こちら](https://www.python.jp/train/list/index.html) を参照せよ．
+
 ## リスト - Lists
 
+### リストとは - What Is Lists?
+
+この節は [こちら](https://www.python.jp/train/list/list.html) を参照せよ．
+
+### リストの操作 (参照、挿入、削除、要素数) - How to Use Lists (Refer、Insert、Delete、The Number of Elements)
+
+この節は [こちら](https://www.python.jp/train/list/list_oper.html) を参照せよ．
+
 ## 繰り返し - Repetition
+
+### for文による繰り返し - Repetition by for Statements
+
+この節は [こちら](https://www.python.jp/train/list/list_forloop.html) を参照せよ．
+
+### while文による繰り返し - Repetition by while Statements
+
+この節は [こちら](https://www.python.jp/train/list/list_loop.html) と [こちら](https://www.python.jp/train/loop/index.html) を参照せよ．
+
+### break文 - break Statements
+
+この節は [こちら](https://www.python.jp/train/loop/break-statement.html) を参照せよ．
+
+### continue文 - continue Statements
+
+この節は [こちら](https://www.python.jp/train/loop/continue.html) を参照せよ．
 
 ## Homework
 
