@@ -6,7 +6,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 |[#00](https://github.com/fumiyanll23/PythonLearning/tree/main/00)|2021/03/20 (Sat.)|**数理棟** 2F会議室|Pythonの環境構築とGitの基本的な操作|**実施済み**|
 |[#01](https://github.com/fumiyanll23/PythonLearning/tree/main/01)|2021/03/22 (Mon.)|情電棟2F自習室|データと式の基礎|**実施済み**|
-|[#02](https://github.com/fumiyanll23/PythonLearning/tree/main/02)|2021/03/27 (Sat.)|**数理棟** 2F会議室|論理演算の基礎，if文|実施予定|
+|[#02](https://github.com/fumiyanll23/PythonLearning/tree/main/02)|2021/03/27 (Sat.)|**数理棟** 2F会議室|論理演算の基礎，if文|**実施済み**|
 |#03|2021/03/29 (Mon.)|情電棟2F自習室|リストの使い方，for文とwhile文|実施予定|
 |#04|2021/04/01 (Thu.)|情電棟2F自習室|テキストデータと簡単な入力・出力方法|実施予定|
 |#05|2021/04/03 (Sat.)|**数理棟** 2F会議室|独自の関数の作成とその呼び出し方|実施予定|

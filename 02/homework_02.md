@@ -26,3 +26,4 @@
 1. [ABL (ACL Beginner Contest) B](https://atcoder.jp/contests/abl/tasks/abl_b) を解きなさい．
 ただし，[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/prob/abl_b.py) を編集して作成しなさい．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/ans/abl_b.py) ．
+また，別解は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/02/src/ans/abl_b_1.py)．
