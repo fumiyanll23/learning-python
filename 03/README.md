@@ -22,7 +22,7 @@
 
   - continue文 - continue Statements
 
-- [Homework](https://github.com/fumiyanll23/PythonLearning/tree/main/03#homework)
+- Homework
 
 ## オブジェクト - Objects
 
