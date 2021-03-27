@@ -2,7 +2,7 @@
 
 def main():
     # input
-    A = list(map(int, input().split()))
+    As = list(map(int, input().split()))
 
     # compute
     """WRITE BELOW"""
