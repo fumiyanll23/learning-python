@@ -1,4 +1,4 @@
-#ABC147A - Blackjack
+# ABC147A - Blackjack
 
 def main():
     # input

@@ -1,4 +1,4 @@
-#ABC165A - We Love Golf
+# ABC165A - We Love Golf
 
 def main():
     # input
