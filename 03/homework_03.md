@@ -1,6 +1,6 @@
 # Homework #03
 
-**3問以上**  選んで解き，それぞれ対応するWebページに提出しなさい．
+それぞれ対応するWebページに提出しなさい．
 
 1. [ABC110A](https://atcoder.jp/contests/abc110/tasks/abc110_a) を解きなさい．
 ただし，[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/03/src/prob/abc110_a.py) を編集して作成しなさい．
