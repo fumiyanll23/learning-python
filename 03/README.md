@@ -44,6 +44,22 @@
 
 この節は [こちら](https://www.python.jp/train/list/list_forloop.html) を参照せよ．
 
+range()関数：(0以上) 引数以下の離散値を要素にもつリストを生成する．
+オプションでステップ (デフォルトでは1) を指定することもできる．
+
+例)
+
+```python
+>>> for i in range(5):
+...     print(i, 'hello')
+...
+0 hello
+1 hello
+2 hello
+3 hello
+4 hello
+```
+
 ### while文による繰り返し - Repetition by while Statements
 
 この節は [こちら](https://www.python.jp/train/loop/index.html) を参照せよ．
