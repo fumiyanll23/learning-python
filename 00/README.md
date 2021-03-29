@@ -256,8 +256,6 @@
 
 [こちら](https://github.com) にて右上の **Sign up** へ進む．
 
-# #01 2021/03/22 (Mon.) はここから始める
-
 アカウントを作成し終えたら，早速GitHubアカウントでVSCodeにサインインしてみましょう!
 
 ### リポジトリとクローン - Repositories and Clone
