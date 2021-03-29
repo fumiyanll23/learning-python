@@ -60,6 +60,12 @@ range()関数：(0以上) 引数以下の離散値を要素にもつリストを
 4 hello
 ```
 
+このfor文を用いることで，以下のようにリストの初期化を行うことができる：
+
+```python
+Ls = [0 for _ in range(N)] # N 個の 0 を要素にもつリスト Ls を作成する
+```
+
 ### while文による繰り返し - Repetition by while Statements
 
 この節は [こちら](https://www.python.jp/train/loop/index.html) を参照せよ．
