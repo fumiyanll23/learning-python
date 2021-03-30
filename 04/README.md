@@ -2,6 +2,28 @@
 
 2021/04/01 (Thu.) @情電棟2Fセミナー室
 
+## 今回やること - Contents
+
+- 文字列 - Strings
+
+  - 文字列とは - What Is a String?
+
+  - 文字列の演算子 - Operators of Strings
+
+- 文字列と数値 - Strings and Numerals
+
+  - 文字列の数値化 - Numeralize Strings
+
+  - 数値の文字列化 - Stringize Numerals
+
+- メソッド - Methods
+
+  - メソッドとは - What Is a Method?
+
+  - メソッドと関数 - Methods and Functions
+
+- Homework
+
 ## 文字列 - Strings
 
 ### 文字列とは - What Is a String?
@@ -14,11 +36,11 @@
 
 ## 文字列と数値 - Strings and Numerals
 
-この章は [こちら](https://www.python.jp/train/string/string.html#%E6%96%87%E5%AD%97%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E3%81%A1%E3%81%8C%E3%81%84) を参照せよ．
+この節は [こちら](https://www.python.jp/train/string/string.html#%E6%96%87%E5%AD%97%E3%81%A8%E6%95%B0%E5%AD%97%E3%81%AE%E3%81%A1%E3%81%8C%E3%81%84) と [こちら](https://www.python.jp/train/string/string_and_num.html#%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E6%95%B0%E5%80%A4%E5%8C%96) を参照せよ．
 
 ### 文字列の数値化 - Numeralize Strings
 
-この節は [こちら](https://www.python.jp/train/string/string_and_num.html#%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E6%95%B0%E5%80%A4%E5%8C%96) を参照せよ．
+この節は  を参照せよ．
 
 ### 数値の文字列化 - Stringize Numerals
 
