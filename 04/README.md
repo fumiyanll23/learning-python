@@ -2,28 +2,6 @@
 
 2021/04/01 (Thu.) @情電棟2Fセミナー室
 
-## 今回やること - Contents
-
-- 文字列 - Strings
-
-  - 文字列とは - What Is a String?
-
-  - 文字列の演算子 - Operators of Strings
-
-- 文字列と数値 - Strings and Numerals
-
-  - 文字列の数値化 - Numeralize Strings
-
-  - 数値の文字列化 - Stringize Numerals
-
-- メソッド - Methods
-
-  - メソッドとは - What Is a Method?
-
-  - メソッドと関数 - Methods and Functions
-
-- Homework
-
 ## 文字列 - Strings
 
 ### 文字列とは - What Is a String?
