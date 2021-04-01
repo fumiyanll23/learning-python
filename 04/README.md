@@ -68,4 +68,4 @@
 
 ## Homework
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/01/homework_04.md) に書いてある宿題をやってみましょう!
+[こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/04/homework_04.md) に書いてある宿題をやってみましょう!
