@@ -1,6 +1,6 @@
 import pytest
 
-from .my_greeting import my_greeting
+from .a_greeting import greeting
 
 @pytest.fixture(params = [
     ('world', 'hello, world'),
@@ -19,4 +19,4 @@ def params(request):
 
 def test_my_greeting(params):
     S, expected = params
-    assert my_greeting(S) == expected
+    assert greeting(S) == expected
