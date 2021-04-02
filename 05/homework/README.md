@@ -1,36 +1,9 @@
 # Homework #05
 
-1. 文字列 S が与えられる．
-S の先頭に `'hello, '` を追加して得られる文字列 S' を返す関数 `my_greeting.py` を作成せよ．
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_greeting.py) ．
+以下の問いに答えよ．
 
-    - 制約
-
-      - S は英文字のみからなる文字列である．
-
-    - 入力
-
-      入力は以下の形式で標準入力から与えられる．
-
-      ```python
-      S
-      ```
-
-    - 出力
-
-      S' を出力せよ．
-
-    - 入力例
-
-      ```python
-      Fumiyan
-      ```
-
-    - 出力例
-
-      ```python
-      hello, Fumiyan
-      ```
+1. [0501 - Greeting](https://github.com/fumiyanll23/PythonLearning/blob/main/my_greeting.py) を解け．
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/05_a.py) ．
 
 1. 長さ N の数列が与えられる．
 この数列の平均を，実数の範囲で求める関数 `my_average.py` を作成せよ．
