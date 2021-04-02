@@ -1,7 +1,7 @@
 # Homework #05
 
 1. 文字列 S が与えられる．
-S の先頭に 'hello, ' を追加して得られる文字列 S' を返す関数 my_greeting.py を作成せよ．
+S の先頭に `'hello, '` を追加して得られる文字列 S' を返す関数 `my_greeting.py` を作成せよ．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_greeting.py) ．
 
     - 制約
@@ -33,7 +33,7 @@ S の先頭に 'hello, ' を追加して得られる文字列 S' を返す関数
       ```
 
 1. 長さ N の数列が与えられる．
-この数列の平均を，実数の範囲で求める関数 my_average.py を作成せよ．
+この数列の平均を，実数の範囲で求める関数 `my_average.py` を作成せよ．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_average.py) ．
 
     - 制約
@@ -87,7 +87,7 @@ S の先頭に 'hello, ' を追加して得られる文字列 S' を返す関数
         A_1 A_2 ... A_N
         ```
 
-    1. この数列の最大値を求める関数 my_max.py を作成せよ．
+    1. この数列の最大値を求める関数 `my_max.py` を作成せよ．
     解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_max.py) ．
 
         - 出力
@@ -107,7 +107,7 @@ S の先頭に 'hello, ' を追加して得られる文字列 S' を返す関数
           10
           ```
 
-    1. この数列の最小値を求める関数 my_min.py を作成せよ．
+    1. この数列の最小値を求める関数 `my_min.py` を作成せよ．
     解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_min.py) ．
 
         - 出力
@@ -127,41 +127,9 @@ S の先頭に 'hello, ' を追加して得られる文字列 S' を返す関数
           -9
           ```
 
-1. 0以上の整数 N が与えられる．
-N の階乗を返す関数 my_factorial.py を作成せよ．
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/my_factorial.py) ．
-
-    - 制約
-
-      - N は0以上の整数である．
-
-    - 入力
-
-      入力は以下の形式で標準入力から与えられる．
-
-      ```python
-      N
-      ```
-
-    - 出力
-
-      N の階乗を出力せよ．
-
-    - 入力例
-
-      ```python
-      6
-      ```
-
-    - 出力例
-
-      ```python
-      720
-      ```
-
 1. 長さ N の数列が与えられる．
-この数列を昇順に並べ替える (ソートする) 関数 my_buble_sort.py を作成せよ．
-ただし，並び替えのアルゴリズムには [バブルソート](https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88) を用いよ．
+この数列を昇順にソートする (並び変える) 関数 `my_buble_sort.py` を作成せよ．
+ただし，ソートのアルゴリズムには [バブルソート](https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88) を用いよ．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/my_sort.py) ．
 
     - 制約
