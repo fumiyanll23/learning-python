@@ -24,23 +24,23 @@ S' を出力せよ．
 ## 入力例1
 
 ```
-Fumiyan
+world
 ```
 
 ## 出力例1
 
 ```
-hello, Fumiyan
+hello, world
 ```
 
 ## 入力例2
 
 ```
-world
+Fumiyan
 ```
 
 ## 出力例2
 
 ```
-hello, world
+hello, Fumiyan
 ```
