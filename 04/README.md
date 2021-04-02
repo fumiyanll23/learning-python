@@ -50,6 +50,8 @@
 
 ### 型キャスト (型変換) - Type Casting (Type Conversion)
 
+この節は [こちら](https://www.python.jp/train/string/string_and_num.html#%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E6%95%B0%E5%80%A4%E5%8C%96) と [こちら](https://www.python.jp/train/string/string_and_num.html#%E6%95%B0%E5%80%A4%E3%81%AE%E6%96%87%E5%AD%97%E5%88%97%E5%8C%96) を参照せよ．
+
 あるデータ型を異なるデータ型に変換することを **型キャスト (型変換)** (type casting (type conversion)) という．
 
 ## メソッド - Methods
