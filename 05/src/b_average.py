@@ -1,6 +1,6 @@
 # compute average of N items
 
-def my_average(N: int, As: list) -> float:
+def average(N: int, As: list) -> float:
     return sum(As) / N
 
 def main():
@@ -11,7 +11,7 @@ def main():
     # compute
 
     # output
-    print(my_average(N, As))
+    print(average(N, As))
 
 if __name__ == '__main__':
     main()

@@ -1,6 +1,6 @@
-# greet
+# greet coders
 
-def my_greeting(S: str) -> str:
+def greeting(S: str) -> str:
     return 'hello, ' + S
 
 def main():
@@ -10,7 +10,7 @@ def main():
     # compute
 
     # output
-    print(my_greeting(S))
+    print(greeting(S))
 
 if __name__ == '__main__':
     main()
