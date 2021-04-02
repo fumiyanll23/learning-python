@@ -1,7 +1,7 @@
 # find N-th Fibonacci number by recursion
 
 def fibonacci(N: int) -> int:
-    if N==1 or N == 2:
+    if N==1 or N==2:
         return 1
     else:
         return fibonacci(N-1) + fibonacci(N-2)
