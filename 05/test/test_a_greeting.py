@@ -3,10 +3,10 @@ import pytest
 from .my_greeting import my_greeting
 
 @pytest.fixture(params = [
+    ('world', 'hello, world'),
     ('Fumiyan', 'hello, Fumiyan'),
     ('Kotaroh Saigoh', 'hello, Kotaroh Saigoh'),
     ('Takara Tagawa', 'hello, Takara Tagawa'),
-    ('Fumiya Narita', 'hello, Fumiya Narita'),
     ('Hiroto Matsumoto', 'hello, Hiroto Matsumoto'),
     ('Hiroto Inoue', 'hello, Hiroto Inoue'),
     ('Taketo Mikawa', 'hello, Taketo Mikawa'),
