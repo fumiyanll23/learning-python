@@ -22,7 +22,9 @@ def my_fibonacci_repetition(N: int) -> int:
             x, y = y, x+y
         return y
 
-def my_fibonacci_formula(N: int)
+def my_fibonacci_formula(N: int) -> int: # use Binet formula
+
+    return (((1+math.sqrt(5))/2)**N-((1-math.sqrt(5))/2)**N) / math.sqrt(5)
 
 def main():
     # input
@@ -33,6 +35,7 @@ def main():
     # output
     print(my_fibonacci_recursion(N))
     print(my_fibonacci_repetition(N))
+    print(int(my_fibonacci_formula(N)))
 
 if __name__ == '__main__':
     main()
