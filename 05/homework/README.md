@@ -10,7 +10,8 @@
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/c_max_and_min.py) ．
 
 1. [D - Fibonacci Sequence](https://github.com/fumiyanll23/PythonLearning/blob/main/05/homework/d_fibonacci.md) を解け．
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/d_fibonacci.py) ．
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/d_fibonacci_recursion.py) ．
+また、別解は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/d_fibonacci_repetition.py) と [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/d_fibonacci_formula.py)．
 
 1. [E - Euclidean Algorithm](https://github.com/fumiyanll23/PythonLearning/blob/main/05/homework/e_euclid.md) を解け．
 解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/src/e_euclid.py) ．
