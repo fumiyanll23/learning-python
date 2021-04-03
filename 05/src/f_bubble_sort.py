@@ -1,6 +1,7 @@
 # F - Bubble Sort
 
-def bubble_sort(N: int, As: list) -> list:
+def bubble_sort(As: list) -> list:
+    N = len(As)
     for i in range(N-1):
         for j in range(N-i-1):
             if As[j] > As[j+1]:
@@ -10,13 +11,12 @@ def bubble_sort(N: int, As: list) -> list:
 
 def main():
     # input
-    N = int(input())
     As = list(map(int, input().split()))
 
     # compute
 
     # output
-    print(bubble_sort(N, As))
+    print(bubble_sort(As))
 
 
 if __name__ == '__main__':
