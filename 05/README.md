@@ -47,4 +47,4 @@ def factorial(N: int) -> int:
 
 ## Homework
 
-[こちら](https://github.com/fumiyanll23/PythonLearning/tree/main/05/homework_05.md) に書いてある宿題をやってみましょう!
+[こちら](https://github.com/fumiyanll23/PythonLearning/tree/main/05/homework/README.md) に書いてある宿題をやってみましょう!
