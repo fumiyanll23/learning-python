@@ -6,20 +6,17 @@ def greeting(S: str) -> str:
 
 
 # B - Average
-def average(N: int, As: list) -> float:
-    return sum(As) / N
+def average(As: list) -> float:
+    return sum(As) / len(As)
 
 
-# C - Max and Min
-def max_and_min(N: int, As: list) -> list:
-    max_like = -float('inf')
-    min_like = float('inf')
+# C - Maximum
+def my_max(As: list) -> int:
+    N, max_like = len(As), -float('inf')
     for i in range(N):
         if As[i] > max_like:
             max_like = As[i]
-        if As[i] < min_like:
-            min_like = As[i]
-    return [max_like, min_like]
+    return max_like
 
 
 # D - Fibonacci Sequence
@@ -28,15 +25,16 @@ def fibonacci(N: int) -> int: # use Binet formula
 
 
 # E - Euclidean Algorithm
-def gcd_and_lcm(N: int, M: int) -> list:
-    prd = N * M
+def gcd(As: list) -> int:
+    N, M = As[0], As[1]
     while M != 0:
         N, M = M, N%M
-    return [N, prd//N]
+    return N
 
 
 # F - Bubble Sort
-def bubble_sort(N: int, As: list) -> list:
+def bubble_sort(As: list) -> list:
+    N = len(As)
     for i in range(N-1):
         for j in range(N-i-1):
             if As[j] > As[j+1]:
