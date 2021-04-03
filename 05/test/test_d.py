@@ -17,6 +17,6 @@ from .homework import fibonacci
 def params(request):
     return request.param
 
-def test_d_fibonacci(params):
+def test_d(params):
     N, expected = params
     assert fibonacci(N) == expected

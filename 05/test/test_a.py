@@ -17,6 +17,6 @@ from .homework import greeting
 def params(request):
     return request.param
 
-def test_a_greeting(params):
+def test_a(params):
     S, expected = params
     assert greeting(S) == expected

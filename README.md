@@ -9,7 +9,7 @@
 |[#02](https://github.com/fumiyanll23/PythonLearning/tree/main/02)|2021/03/27(Sat.)</br>13:00-15:00|**数理棟** 2F会議室|論理演算の基礎，if文|**実施済み**|
 |[#03](https://github.com/fumiyanll23/PythonLearning/tree/main/03)|2021/03/29(Mon.)</br>13:00-15:00|情電棟2F **セミナー室**|リストの使い方，for文とwhile文|**実施済み**|
 |[#04](https://github.com/fumiyanll23/PythonLearning/tree/main/04)|2021/04/01(Thu.)</br>14:00-16:00|情電棟2F **セミナー室**|テキストデータと簡単な入力・出力方法|**実施済み**|
-|[#05](https://github.com/fumiyanll23/PythonLearning/tree/main/05)|2021/04/03(Sat.)</br>13:00-15:00|**数理棟** 2F会議室|独自の関数の作成とその呼び出し方|実施予定|
+|[#05](https://github.com/fumiyanll23/PythonLearning/tree/main/05)|2021/04/03(Sat.)</br>13:00-15:00|**数理棟** 2F会議室|独自の関数の作成とその呼び出し方|**実施済み**|
 |#06|**2021/04/06(Tue.)</br>16:00-18:00**|情電棟2F **セミナー室**|バーチャルコンテスト&演習|実施予定|
 |#07|2021/04/08(Thu.)</br>13:00-15:00|情電棟2 **セミナー室**|辞書を使ったデータ検索|実施予定|
 |#08|2021/04/10(Sat.)</br>13:00-15:00|**数理棟** 2F会議室|タプルの使い方|実施予定|

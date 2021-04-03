@@ -1,6 +1,6 @@
 # C - Maximum
 
-def my_max(As: list) -> list:
+def my_max(As: list) -> int:
     N, max_like = len(As), -float('inf')
     for i in range(N):
         if As[i] > max_like:

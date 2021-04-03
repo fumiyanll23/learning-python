@@ -9,6 +9,6 @@ from .homework import bubble_sort
 def params(request):
     return request.param
 
-def test_a_greeting(params):
+def test_f(params):
     As, expected = params
     assert bubble_sort(As) == expected
