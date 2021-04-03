@@ -1,26 +1,21 @@
-# C - Max and Min
+# C - Maximum
 
-def max_and_min(N: int, As: list) -> list:
-    max_like = -float('inf')
-    min_like = float('inf')
+def my_max(As: list) -> list:
+    N, max_like = len(As), -float('inf')
     for i in range(N):
         if As[i] > max_like:
             max_like = As[i]
-        if As[i] < min_like:
-            min_like = As[i]
-    return [max_like, min_like]
+    return max_like
 
 
 def main():
     # input
-    N = int(input())
     As = list(map(int, input().split()))
 
     # compute
-    ans_max, ans_min = max_and_min(N, As)
 
     # output
-    print(ans_max, ans_min)
+    print(my_max(As))
 
 
 if __name__ == '__main__':
