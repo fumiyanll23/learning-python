@@ -5,7 +5,6 @@ def bubble_sort(N: int, As: list) -> list:
         for j in range(N-i-1):
             if As[j] > As[j+1]:
                 As[j], As[j+1] = As[j+1], As[j]
-            print(As)
     return As
 
 
