@@ -10,6 +10,6 @@ from .homework import my_max
 def params(request):
     return request.param
 
-def test_a_greeting(params):
+def test_c(params):
     As, expected = params
     assert my_max(As) == expected

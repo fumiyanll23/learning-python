@@ -9,6 +9,6 @@ from .homework import gcd
 def params(request):
     return request.param
 
-def test_a_greeting(params):
+def test_e(params):
     As, expected = params
     assert gcd(As) == expected
