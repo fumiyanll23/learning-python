@@ -1,3 +1,5 @@
+import math
+
 # A - Greeting
 def greeting(S: str) -> str:
     return 'hello, ' + S
@@ -21,8 +23,6 @@ def max_and_min(N: int, As: list) -> list:
 
 
 # D - Fibonacci Sequence
-import math
-
 def fibonacci(N: int) -> int: # use Binet formula
     return round((((1+math.sqrt(5))/2)**N-((1-math.sqrt(5))/2)**N) / math.sqrt(5))
 
