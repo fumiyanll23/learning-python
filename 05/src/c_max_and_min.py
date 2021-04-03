@@ -1,4 +1,4 @@
-# find maximum and minimum of given list
+# C - Max and Min
 
 def max_and_min(N: int, As: list) -> list:
     max_like = -float('inf')
@@ -8,8 +8,8 @@ def max_and_min(N: int, As: list) -> list:
             max_like = As[i]
         if As[i] < min_like:
             min_like = As[i]
-
     return [max_like, min_like]
+
 
 def main():
     # input
@@ -21,6 +21,7 @@ def main():
 
     # output
     print(ans_max, ans_min)
+
 
 if __name__ == '__main__':
     main()

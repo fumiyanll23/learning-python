@@ -1,7 +1,11 @@
-# find G.C.D. and L.C.M. of 2 pocitive integer N and M
+# E - Euclidean Algorithm
 
 def gcd_and_lcm(N: int, M: int) -> list:
-    return []
+    prd = N * M
+    while M != 0:
+        N, M = M, N%M
+    return [N, prd//N]
+
 
 def main():
     # input

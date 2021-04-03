@@ -1,10 +1,10 @@
-# find N-th Fibonacci number by formula
+# D - Fibonacci Sequence
 
 import math
 
 def fibonacci(N: int) -> int: # use Binet formula
+    return round((((1+math.sqrt(5))/2)**N-((1-math.sqrt(5))/2)**N) / math.sqrt(5))
 
-    return int((((1+math.sqrt(5))/2)**N-((1-math.sqrt(5))/2)**N) / math.sqrt(5))
 
 def main():
     # input

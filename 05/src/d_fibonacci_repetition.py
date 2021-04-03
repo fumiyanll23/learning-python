@@ -1,11 +1,11 @@
-# find N-th Fibonacci number by repetition
+# D - Fibonacci Sequence
 
 def fibonacci(N: int) -> int:
     x, y = 1, 1
-
     for _ in range(N-2):
         x, y = y, x+y
     return y
+
 
 def main():
     # input
