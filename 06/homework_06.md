@@ -32,4 +32,4 @@
 また、別解は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/06/src/abc154_c_1.py)．
 
 1. [ABC181C](https://atcoder.jp/contests/abc181/tasks/abc181_c) を解きなさい．
-解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/06/src/.py) ．
+解答例は [こちら](https://github.com/fumiyanll23/PythonLearning/blob/main/06/src/abc181_c.py) ．
