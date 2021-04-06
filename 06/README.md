@@ -10,14 +10,6 @@
 
 ## バーチャルコンテスト - Virtual Contests
 
-まずは，本日参加するメンバーをお気に入り登録する．
-
-- 迫田：syakoo
-
-- 成田：fumiyanll23
-
-- 川渕：buchi1002
-
 [ABC072](https://atcoder.jp/contests/abc072) にバーチャル参加してみましょう!
 
 ## Homework
