@@ -13,6 +13,8 @@
 |[#06](https://github.com/fumiyanll23/PythonLearning/tree/main/06)|2021/04/06(Tue.)</br>16:00-18:00|情電棟2F セミナー室|バーチャルコンテスト&演習|**実施済み**|
 |[#07](https://github.com/fumiyanll23/PythonLearning/tree/main/07)|2021/04/08(Thu.)</br>13:00-15:00|情電棟2F セミナー室|辞書を使ったデータ検索，タプルの使い方|**実施済み**|
 
+If you've finished above curriculums, enjoy your coding life!
+
 ## 参考文献 - References
 
 - [ゼロからのPython入門講座](https://www.python.jp/train/index.html)
